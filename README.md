@@ -2,31 +2,46 @@
 
 Projeto apresentado ao Centro Universitário [FEI](https://portal.fei.edu.br/), como parte dos requisitos necessários para aprovação na disciplina de Interface Humano-Computador (CC8122) do curso de Ciencia da Computação, orientado pelo Prof. Dr. [Fagner de Assis Moura Pimentel](https://github.com/fagnerpimentel).
 
-Este projeto se baseia no Trabalho de Conclusão de Curso (TCC) entitulado **Título do TCC** sob orientação do Professor **Nome do Orientador** e desenvolvido pelos seguintes alunos:
+Este projeto se baseia no Trabalho de Conclusão de Curso (TCC) entitulado **Mapeamento de trajetos e fluxo de pessoas com base em dados processados de rastreamento multicâmera** sob orientação do Professor **Ricardo de Carvalho Destro** e desenvolvido pelos seguintes alunos:
 
-- Nome Componente 1
-- Nome Componente 2
-- Nome Componente 3
+- Fernando Milani Venerando
+- Lucas Rezende Simões
 
 ## Resumo
 
 Apresente uma breve descrição da sua aplicação ou produto.
+Um software capaz de apresentarum relatório contendo trajeto e fluxo dos indivíduos, processando dados obtidos por câmeras de segurança
 
 ## Introdução
  
 - Apresente o propósito do produto ou serviço e quais são os principais benefícios que ele oferece aos usuários.
+Análise de dados de fluxo de indiíduos, focando no uso das dependências dos metrôs de São Paulo, mas podendo ser usado por outras instituições de transporte
+
 - Identifique os problemas ou necessidades que o produto ou serviço resolve ou satisfaz.
+A falta de ferramentas de análise de fluxo para gerenciamento e manutenções possíveis
+
 - Liste as características e funcionalidades do seu produto ou serviço de forma detalhada.
+1. Adicionar ou receber diretamente dados das câmeras de segurança da instituição correspondente
+2. Processar os dados, mapeando rotas e fluxo
+3. Lidar com possíveis discrepâncias dos dados previamente recebidos
+4. Exibição de estatísticas e resultados dos dados obtidos
+ 
 - Liste as tecnologias e ferramentas computacionais que pretendem usar neste projeto (TCC).
+1. Banco de dados
+2. 
+
 - Apresente o contexto de uso dessa aplicação. (“Usuários, tarefas, equipamentos (hardware, software e materiais) e o ambiente físico e social no qual um produto é usado.”)
+Uso focado nas dependências do metrô de São Paulo, mas podendo ser usado por qualquer instituição que lide com grandes quantias de transporte ou fluxo de indivíduos em um ambiente vigiado. Pode ser acessado por funcionários qualificados para análise através de um computador da empresa.
 
 ## Publico Alvo
 
 - Determine qual o grupo específico de pessoas ou organizações para as quais este produto ou serviço é direcionado.
+Uso focado nas dependências do metrô de São Paulo, mas podendo ser usado por qualquer instituição que lide com grandes quantias de transporte ou fluxo de indivíduos em um ambiente vigiado.
+
 - Descreva as caracteristicas demográficas, comportamentais, psicográficas ou geográficas deste público alvo que o torna mais propenso a se interessar pelo que está sendo oferecido neste projeto ou serviço.
+Tais instituições podem encontrar dificuldades com tomada de decisões devido ao elevado número de pessoas sem rastreamento.
 
 ## Análise de concorrência
-
 1. Identifique os principais concorrentes ou softwares mais utilizados pelo seu público-alvo.
 2. Colete informações sobre os concorrentes selecionados.
 3. Analise as características e funcionalidades dos concorrentes.
@@ -36,6 +51,8 @@ Apresente uma breve descrição da sua aplicação ou produto.
 7. Identifique padrões e tendências no mercado.
 8. Elabore relatórios e sumarize os resultados.
 9. Extraia pontos positivos e faça recomendações.
+
+Dashboards
 
 ### Personas
 

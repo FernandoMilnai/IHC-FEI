@@ -14,10 +14,12 @@ Um software capaz de apresentarum relatório contendo trajeto e fluxo dos indiv�
 
 ## Introdução
  
-- Apresente o propósito do produto ou serviço e quais são os principais benefícios que ele oferece aos usuários.
+- Apresente o propósito do produto ou serviço e quais são os principais benefícios que ele oferece aos usuários.]
+
 Análise de dados de fluxo de indiíduos, focando no uso das dependências dos metrôs de São Paulo, mas podendo ser usado por outras instituições de transporte
 
 - Identifique os problemas ou necessidades que o produto ou serviço resolve ou satisfaz.
+
 A falta de ferramentas de análise de fluxo para gerenciamento e manutenções possíveis
 
 - Liste as características e funcionalidades do seu produto ou serviço de forma detalhada.

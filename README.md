@@ -8,8 +8,8 @@ Este projeto se baseia no Trabalho de Conclusão de Curso (TCC) entitulado **Map
 - Lucas Rezende Simões
 
 ## Resumo
+Apresente uma breve descrição da sua aplicação ou produto.
 
-- Apresente uma breve descrição da sua aplicação ou produto.
 Um software capaz de apresentarum relatório contendo trajeto e fluxo dos indivíduos, processando dados obtidos por câmeras de segurança
 
 ## Introdução

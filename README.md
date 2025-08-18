@@ -38,9 +38,11 @@ Uso focado nas dependências do metrô de São Paulo, mas podendo ser usado por 
 ## Publico Alvo
 
 - Determine qual o grupo específico de pessoas ou organizações para as quais este produto ou serviço é direcionado.
+
 Uso focado nas dependências do metrô de São Paulo, mas podendo ser usado por qualquer instituição que lide com grandes quantias de transporte ou fluxo de indivíduos em um ambiente vigiado.
 
 - Descreva as caracteristicas demográficas, comportamentais, psicográficas ou geográficas deste público alvo que o torna mais propenso a se interessar pelo que está sendo oferecido neste projeto ou serviço.
+
 Tais instituições podem encontrar dificuldades com tomada de decisões devido ao elevado número de pessoas sem rastreamento.
 
 ## Análise de concorrência

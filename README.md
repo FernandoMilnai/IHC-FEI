@@ -30,9 +30,10 @@ A falta de ferramentas de análise de fluxo para gerenciamento e manutenções p
  
 - Liste as tecnologias e ferramentas computacionais que pretendem usar neste projeto (TCC).
 1. Banco de dados
-2. 
+2. Python
 
 - Apresente o contexto de uso dessa aplicação. (“Usuários, tarefas, equipamentos (hardware, software e materiais) e o ambiente físico e social no qual um produto é usado.”)
+
 Uso focado nas dependências do metrô de São Paulo, mas podendo ser usado por qualquer instituição que lide com grandes quantias de transporte ou fluxo de indivíduos em um ambiente vigiado. Pode ser acessado por funcionários qualificados para análise através de um computador da empresa.
 
 ## Publico Alvo

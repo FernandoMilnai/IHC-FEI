@@ -48,14 +48,20 @@ Tais instituições podem encontrar dificuldades com tomada de decisões devido 
 
 ## Análise de concorrência
 1. Identifique os principais concorrentes ou softwares mais utilizados pelo seu público-alvo.
+
+Baseado em análises recentes, os nomes mais relevantes no mercado de dashboards e BI são Microsoft Power BI e Google Looker Studio
+
 2. Colete informações sobre os concorrentes selecionados.
-3. Analise as características e funcionalidades dos concorrentes.
-4. Avalie a experiência do usuário (UX).
-5. Examine os preços e modelos de negócio.
-6. Pesquisa de satisfação do cliente e opiniões.
-7. Identifique padrões e tendências no mercado.
-8. Elabore relatórios e sumarize os resultados.
-9. Extraia pontos positivos e faça recomendações.
+
+
+
+4. Analise as características e funcionalidades dos concorrentes.
+5. Avalie a experiência do usuário (UX).
+6. Examine os preços e modelos de negócio.
+7. Pesquisa de satisfação do cliente e opiniões.
+8. Identifique padrões e tendências no mercado.
+9. Elabore relatórios e sumarize os resultados.
+10. Extraia pontos positivos e faça recomendações.
 
 Dashboards
 

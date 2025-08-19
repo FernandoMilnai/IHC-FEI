@@ -53,15 +53,31 @@ Baseado em análises recentes, os nomes mais relevantes no mercado de dashboards
 
 2. Colete informações sobre os concorrentes selecionados.
 
+PoerBI integra ao ecossistema Microsoft como Excel e Teams, tem versões gratúitas e pagas. Google Looker é gratuito, com integração nativa aos produtos Google como Analytics, Ads, Sheets e Wikipédia, também tem versão Pro com controle mais estruturado e suporte corporativo
+
+3. Analise as características e funcionalidades dos concorrentes.
+
+Marcantes pela variedade de funcionalidades, versátil para diferenes aplicações e possível integração com outras plataformas
+   
+4. Avalie a experiência do usuário (UX).
+
+ok
+  
+5. Examine os preços e modelos de negócio.
+
+O Power BI tem uma versão gratuita e versãoes Pro por R$93,50/mês e Premium R$160,30/mês
+
+6. Pesquisa de satisfação do cliente e opiniões.
+
+Power BI, Tableau e Looker Studio são amplamente elogiados por usabilidade e visual moderno
 
 
-4. Analise as características e funcionalidades dos concorrentes.
-5. Avalie a experiência do usuário (UX).
-6. Examine os preços e modelos de negócio.
-7. Pesquisa de satisfação do cliente e opiniões.
-8. Identifique padrões e tendências no mercado.
-9. Elabore relatórios e sumarize os resultados.
-10. Extraia pontos positivos e faça recomendações.
+7. Identifique padrões e tendências no mercado.
+
+
+
+11. Elabore relatórios e sumarize os resultados.
+12. Extraia pontos positivos e faça recomendações.
 
 Dashboards
 

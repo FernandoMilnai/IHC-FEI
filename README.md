@@ -86,9 +86,18 @@ Dashboards
 - Descreva as personas que irão interagir com a aplicação ou produto. Deixe claro suas principais caracteristicas e contextos sociais, econômicos e culturais.
 - Quais informações sobre o usuário o serviço ou poduto deve guardar?
 
-  - Persona primaira ...
-  - Persona secundária ...
-  - Outras personas ...
+## Persona primária 1:
+- Roberto Carlos, 25 anos
+ - Roberto Carlos é formado em Análise de dados, trabalha no metrô de São Pualo, SP
+
+## Persona primária 2:
+- Erasmo Carlos, 32 anos, engenheiro civil e a serviço da prefeitura queria espandir uma linha de metrô de SP e para maior eficácia consultou o software 
+
+## Persona primária 3:
+- Fiuk Carlos, 43 anos, é policial, trabalhando no setor investigativo de desaparecidos consultaria o software para procurar por indivíduos de interesse
+
+## Persona secundária:
+- Carlos Alberto de Nobrega Carlos, 20 anos, estudante de ciência da computação e está trabalhando em um projeto de iniciação científica e necessita de acesso a base de dados e estatísticas fornecidas pelo software
 
 ### Mapa de empatia
 
@@ -102,6 +111,15 @@ Dashboards
   Que tipo de serviço ou poduto mais agrada essa persona?
   - Dores: quando falamos sobre dores do usuário, estamos fazendo referência a quaisquer obstáculos, necessidades ou frustrações que o usuário possa experimentar ao tentar realizar uma tarefa ou alcançar um objetivo. Isso inclui, por exemplo, problemas de usabilidade, dificuldades de acesso ou outros desafios que podem afetar a experiência do usuário.
   - Ganhos: nesse caso estamos falando de quaisquer benefícios ou recompensas que o usuário possa experimentar ao utilizar o serviço ou poduto. Isso pode incluir economia de tempo ou facilidade de uso, por exemplo. Que desejos do usuário o serviço ou poduto satisfaz?
+
+### Mapa de empatia:
+- Pessoa primária: Roberto Carlos.
+- Encontra-se num escritório convecional
+- K-pop/ Esse cara sou eu
+- Ele analisa dados e estatísticas recebidas e fornecidas pelo sofware, podendo reportar dados de análise de interesse aos seus superiores em um relatório
+
+- Pessoa Secundária: Carlos Alberto de Nobrega Carlos
+- 
 
 ## Contexto de uso
 

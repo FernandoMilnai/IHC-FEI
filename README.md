@@ -65,7 +65,7 @@ ok
   
 5. Examine os preços e modelos de negócio.
 
-O Power BI tem uma versão gratuita e versãoes Pro por R$93,50/mês e Premium R$160,30/mês
+O Power BI tem uma versão gratuita e versões Pro por R$93,50/mês e Premium R$160,30/mês
 
 6. Pesquisa de satisfação do cliente e opiniões.
 

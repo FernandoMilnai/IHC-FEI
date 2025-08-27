@@ -114,16 +114,25 @@ Dashboards
 
 ### Mapa de empatia:
 - Pessoa primária: Roberto Carlos.
-- Encontra-se num escritório convecional
-- K-pop/ Esse cara sou eu
-- Ele analisa dados e estatísticas recebidas e fornecidas pelo sofware, podendo reportar dados de análise de interesse aos seus superiores em um relatório
+- Encontra-se num escritório convecional, normalmente se encontra com colegas de trabalho e diariamente utiliza o computador para trabalhar.
+- Normalmente sons de teclados e ocasionalmente conversas entre colegas de trabalho.
+- Ele analisa dados e estatísticas recebidas e fornecidas pelo sofware, podendo reportar dados de análise de interesse aos seus superiores em um relatório.
+- Ele espera conseguir usar a aplicação sem travamentos e de forma intuitiva.
+- Estresse com o tratamento de discrepâncias em dias muito movimentados.
+- O produto auxilia-o em seu trabalho ao simplificar as estastísticas, organizando-as para que ele não precise fazer isso manualmente.
 
 - Pessoa Secundária: Carlos Alberto de Nobrega Carlos
-- 
+- Encontra-se em um laboratório da faculdade, normalmente vê colegas e professores da faculdade, utiliza diariamente um computador para trabalhar em seu projeto.
+- Conversas de alunos e professores e notificações de seu orientador.
+- Ele adquiri a base de dados para testar em seu projeto, gerando ocasionalmente dados aleatórios.
+- Ele espera conseguir dados diferentes e realistas do produto.
+- Discrepâncias e casos mal adaptados para a situação dele.
+- Dados gerados de forma rápida intuitiva, e acessível.
 
 ## Contexto de uso
 
 - Descreva o ambiente em que o serviço ou poduto deve ser utilizado.
+   - Em um computador.
 - Qual/quais o(s) contexto(s) sociais, econômicos e culturais existentes neste ambiente?
 - Quais informações sobre o ambiente, o serviço ou poduto deve guardar antes de iniciar a interação?
 - O que normalmente deve estar acontecendo com o ambiente quando o usuário interagir com o serviço ou poduto?

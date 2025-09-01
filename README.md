@@ -134,8 +134,11 @@ Dashboards
 - Descreva o ambiente em que o serviço ou poduto deve ser utilizado.
    - Em um computador.
 - Qual/quais o(s) contexto(s) sociais, econômicos e culturais existentes neste ambiente?
+   - LGPD
 - Quais informações sobre o ambiente, o serviço ou poduto deve guardar antes de iniciar a interação?
+   - Cumprimento dos requisitos recomendados para a execução do programa.
 - O que normalmente deve estar acontecendo com o ambiente quando o usuário interagir com o serviço ou poduto?
+   - O computador deve estar ligado e caso haja um banco de dados o qual será utilizado, acesso à internet. 
 
 ## Jornada do usuário
 

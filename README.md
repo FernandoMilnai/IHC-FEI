@@ -8,17 +8,12 @@ Este projeto se baseia no Trabalho de Conclusão de Curso (TCC) entitulado **Map
 - Lucas Rezende Simões
 
 ## Resumo
-Apresente uma breve descrição da sua aplicação ou produto.
-
 Um software capaz de apresentarum relatório contendo trajeto e fluxo dos indivíduos, processando dados obtidos por câmeras de segurança
 
 ## Introdução
- 
-- Apresente o propósito do produto ou serviço e quais são os principais benefícios que ele oferece aos usuários.]
-
 Análise de dados de fluxo de indiíduos, focando no uso das dependências dos metrôs de São Paulo, mas podendo ser usado por outras instituições de transporte
 
-- Identifique os problemas ou necessidades que o produto ou serviço resolve ou satisfaz.
+- Problemas ou necessidades que o produto ou serviço resolve ou satisfaz:
 
 A falta de ferramentas de análise de fluxo para gerenciamento e manutenções possíveis
 
@@ -29,8 +24,9 @@ A falta de ferramentas de análise de fluxo para gerenciamento e manutenções p
 4. Exibição de estatísticas e resultados dos dados obtidos
  
 - Liste as tecnologias e ferramentas computacionais que pretendem usar neste projeto (TCC).
-1. Banco de dados
+1. Banco de dados/ SLQ
 2. Python
+3. HTML/ CSS/ JS
 
 - Apresente o contexto de uso dessa aplicação. (“Usuários, tarefas, equipamentos (hardware, software e materiais) e o ambiente físico e social no qual um produto é usado.”)
 
@@ -55,13 +51,19 @@ Baseado em análises recentes, os nomes mais relevantes no mercado de dashboards
 
 PoerBI integra ao ecossistema Microsoft como Excel e Teams, tem versões gratúitas e pagas. Google Looker é gratuito, com integração nativa aos produtos Google como Analytics, Ads, Sheets e Wikipédia, também tem versão Pro com controle mais estruturado e suporte corporativo
 
+Power BI:
+<img width="1024" height="574" alt="image" src="https://github.com/user-attachments/assets/3d4ca187-4705-4a71-9f55-7f48a48943fa" />
+
+
+
+
 3. Analise as características e funcionalidades dos concorrentes.
 
 Marcantes pela variedade de funcionalidades, versátil para diferenes aplicações e possível integração com outras plataformas
    
 4. Avalie a experiência do usuário (UX).
 
-ok
+
   
 5. Examine os preços e modelos de negócio.
 
@@ -94,7 +96,7 @@ Dashboards
 - Erasmo Carlos, 32 anos, engenheiro civil e a serviço da prefeitura queria espandir uma linha de metrô de SP e para maior eficácia consultou o software 
 
 ## Persona primária 3:
-- Fiuk Carlos, 43 anos, é policial, trabalhando no setor investigativo de desaparecidos consultaria o software para procurar por indivíduos de interesse
+- Fiuk Carlos, 43 anos, é policial, trabalhando no setor investigativo de desaparecidos consultaria o software na interface policial para procurar por indivíduos de interesse
 
 ## Persona secundária:
 - Carlos Alberto de Nobrega Carlos, 20 anos, estudante de ciência da computação e está trabalhando em um projeto de iniciação científica e necessita de acesso a base de dados e estatísticas fornecidas pelo software

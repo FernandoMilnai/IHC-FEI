@@ -55,6 +55,8 @@ Power BI:
 <img width="1024" height="574" alt="image" src="https://github.com/user-attachments/assets/3d4ca187-4705-4a71-9f55-7f48a48943fa" />
 
 
+Google Analytics:
+![alt text](image.png)
 
 
 3. Analise as características e funcionalidades dos concorrentes.
@@ -63,11 +65,13 @@ Marcantes pela variedade de funcionalidades, versátil para diferenes aplicaçõ
    
 4. Avalie a experiência do usuário (UX).
 
+As principais críticas ao PowerBI são referentes à falta de responsividade automática de atualização dos gráficos e dificuldade de cancelar planos. Mas muito elogiado pela versatilidade de uso.
 
+As principais críticas ao  Google Analytics é pelas utilidades limitadas comparado ao PowerBI e lógica mais complexa. Mas elogiado pela fácil integração com outros sistemas Google e acesso gratuito à nuvem.
   
 5. Examine os preços e modelos de negócio.
 
-O Power BI tem uma versão gratuita e versões Pro por R$93,50/mês e Premium R$160,30/mês
+O Power BI tem uma versão gratuita e versões Pro por R$93,50/mês e Premium R$160,30/mês, e Google Analytics é gratuito.
 
 6. Pesquisa de satisfação do cliente e opiniões.
 
@@ -78,8 +82,10 @@ Power BI, Tableau e Looker Studio são amplamente elogiados por usabilidade e vi
 
 
 
-11. Elabore relatórios e sumarize os resultados.
-12. Extraia pontos positivos e faça recomendações.
+8. Elabore relatórios e sumarize os resultados.
+
+
+9. Extraia pontos positivos e faça recomendações.
 
 Dashboards
 

@@ -121,6 +121,7 @@ Dashboards
 - Estresse com o tratamento de discrepâncias em dias muito movimentados.
 - O produto auxilia-o em seu trabalho ao simplificar as estastísticas, organizando-as para que ele não precise fazer isso manualmente.
 
+
 - Pessoa Secundária: Carlos Alberto de Nobrega Carlos
 - Encontra-se em um laboratório da faculdade, normalmente vê colegas e professores da faculdade, utiliza diariamente um computador para trabalhar em seu projeto.
 - Conversas de alunos e professores e notificações de seu orientador.

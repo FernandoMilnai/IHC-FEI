@@ -229,6 +229,26 @@ Ele vê no sistema uma fonte rica de dados para testar seus modelos, criar visua
   - Como a tarefa começa? Como a tarefa se desenvolve? Como a tarefa termina?
 
 
+### Jornada Roberto Carlos:
+1. Na sua jornada de trabalho comum como analista de dados pela CPTM, ele comaça abrindo o software em seu PC no escritório
+2. Nas primeiras horas de trabalho, monitorava possiveis discrepancias dos dados recebidos do Banco de Dados da instituição
+3. Recebeu solicitações via e-mail de seu superior pedindo um arquivo .CVS contendo apenas informações da estação da Liberdade entre 08:00 e 12:00 do dia 20/05/2025
+4. Selecionou a estação "Liberdade" no combobox de estações, definiu horário inicial e final no input de hora e definiu o dia no input de data.
+5. Clicou em "Pesquisar" o terminal do programa exibiu o resultado desejado
+6. Roberto clicou no botão de "Exportar", salvando o arquivo em sua área de trabalho
+7. Enviou o arquivo solicitado ao seu superior
+8. Voltou a monitorar discrepancias, até que recebeu o mais novo relatório do software sobre individuos com falhas de detecção no trajeto
+9. Abriu o relaório exibindo os trajetos num grafo e corrigiu as falhas possíveis.
+10. Reportou o relatório e suas correções ao grupo de TI para melhorias de detecção de dados futuros
+11. Fim do expediente.
+12. Fechou o software.
+ 
+### Jornada Erasmo Carlos:
+1. 
+ 
+### Fiuk Carlos:
+1. 
+
 <!--
 ## Análise de concorrência
 

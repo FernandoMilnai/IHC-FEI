@@ -219,7 +219,7 @@ Ele vê no sistema uma fonte rica de dados para testar seus modelos, criar visua
 - Quais informações sobre o ambiente, o serviço ou poduto deve guardar antes de iniciar a interação?
    - Cumprimento dos requisitos recomendados para a execução do programa.
 - O que normalmente deve estar acontecendo com o ambiente quando o usuário interagir com o serviço ou poduto?
-   - O computador deve estar ligado e caso haja um banco de dados o qual será utilizado, acesso à internet. 
+  - Durante o uso do software na jornada de trabalho comum do analista, é acessado por seu PC, e além de verificar possiveis discrepanceas nos dados, pode receber e responder por informações solicitadas por seus superiores
 
 ## Jornada do usuário
 

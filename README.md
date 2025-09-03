@@ -22,6 +22,10 @@ A falta de ferramentas de análise de fluxo para gerenciamento e manutenções p
 2. Processar os dados, mapeando rotas e fluxo
 3. Lidar com possíveis discrepâncias dos dados previamente recebidos
 4. Exibição de estatísticas e resultados dos dados obtidos
+
+Futuramente seria implementado interfaces diferentes para determinados usos, como procura de indivíduos por aparência e uma focada em análise de estatísticas da instituição, focada para a área de engenharia civil.
+1. Receber dados de aparência de indivíduos e perquisar rotas correspondentes
+2. Exibir mais informações e gráficos (Picos de uso por hora, estações mais frequentadas, etc) 
  
 - Liste as tecnologias e ferramentas computacionais que pretendem usar neste projeto (TCC).
 1. Banco de dados/ SLQ
@@ -68,8 +72,9 @@ Marcantes pela variedade de funcionalidades, versátil para diferenes aplicaçõ
 As principais críticas ao PowerBI são referentes à falta de responsividade automática de atualização dos gráficos e dificuldade de cancelar planos. Mas muito elogiado pela versatilidade de uso.
 <img width="945" height="403" alt="image" src="https://github.com/user-attachments/assets/1e41c3b6-6e2c-41f9-a06a-5f399660b9b9" />
 
-
 As principais críticas ao  Google Analytics é pelas utilidades limitadas comparado ao PowerBI e lógica mais complexa. Mas elogiado pela fácil integração com outros sistemas Google e acesso gratuito à nuvem.
+<img width="816" height="777" alt="image" src="https://github.com/user-attachments/assets/45d2c31e-4cde-419c-9235-d0779495cefa" />
+
   
 5. Examine os preços e modelos de negócio.
 
@@ -181,7 +186,7 @@ Ele vê no sistema uma fonte rica de dados para testar seus modelos, criar visua
 ### Mapa de empatia:
 - Pessoa primária: Roberto Carlos.
 - Encontra-se num escritório convecional, normalmente se encontra com colegas de trabalho e diariamente utiliza o computador para trabalhar.
-- Normalmente sons de teclados e ocasionalmente conversas entre colegas de trabalho.
+- Normalmente sons de teclados e ocasionalmente conversas entre colegas de trabalho e ocasionalmente tutoriais de SQL no Youtube
 - Ele analisa dados e estatísticas recebidas e fornecidas pelo sofware, podendo reportar dados de análise de interesse aos seus superiores em um relatório.
 - Ele espera conseguir usar a aplicação sem travamentos e de forma intuitiva.
 - Estresse com o tratamento de discrepâncias em dias muito movimentados.

@@ -124,21 +124,33 @@ Os usuários valorizam ferramentas com **experiência amigável**, **baixo tempo
 - Quais informações sobre o usuário o serviço ou poduto deve guardar?
 
 ## Persona primária 1:
-- Roberto Carlos, 25 anos
- - Roberto Carlos é formado em Análise de dados, trabalha no metrô de São Pualo, SP.
+- **Nome**: Roberto Carlos, 25 anos  
+- **Profissão**: Analista de Dados  
+Roberto Carlos se formou em Ciência da Computação e foi efetivado na CPTM, onde analisa dados de câmeras e sensores em estações. Ele lida diariamente com grandes volumes de dados sobre movimentação de passageiros.
+
 <img width="1024" height="574" alt="image" src="https://blog.dsacademy.com.br/wp-content/uploads/2022/02/Qual-a-Diferenca-Entre-Analista-de-Dados-e-Cientista-de-Dados.jpeg" />
 
 ## Persona primária 2:
-- Erasmo Carlos, 32 anos, engenheiro civil e a serviço da prefeitura queria espandir uma linha de metrô de SP e para maior eficácia consultaria o software para ter uma base de informações sobre horários de pico de uso, estações mais frequantadas, etc.
+- **Nome**: Erasmo Carlos, 32 anos  
+- **Profissão**: Engenheiro Civil  
+Erasmo atua na prefeitura de São Paulo com projetos de infraestrutura urbana e expansão do metrô. Busca dados confiáveis para tomar decisões sobre horários de pico, demanda e localização estratégica de novas estações.
+
 <img width="1024" height="574" alt="image" src="https://media.istockphoto.com/id/1428349031/pt/foto/handsome-engineer.jpg?s=612x612&w=is&k=20&c=6fwjIEzOAPNddRvj7pVPpMhunMgR2iniC_LLrOmFEfA=" />
 
 ## Persona primária 3:
-- Fiuk Carlos, 43 anos, é policial, trabalhando no setor investigativo de desaparecidos consultaria o software na interface policial para procurar por indivíduos de interesse
+- **Nome**: Fiuk Carlos, 43 anos  
+- **Profissão**: Policial Civil – Setor de Desaparecidos  
+Fiuk trabalha com investigação de desaparecimentos, buscando padrões de movimentação e imagens em câmeras do metrô. Utiliza a interface policial do sistema para cruzar informações e rastrear indivíduos de interesse.
+
 <img width="1024" height="574" alt="image" src="https://media.istockphoto.com/id/1347645338/pt/foto/police-detective-on-a-dark-background-a-policeman-at-work-tough-cop-fake-badge.jpg?s=1024x1024&w=is&k=20&c=Y754vE4HhhrIxgMAUpWOvDr-NOc6LsEyemcOILHsZ3I=" />
 
 ## Persona secundária:
-- Carlos Alberto de Nobrega Carlos, 20 anos, estudante de ciência da computação e está trabalhando em um projeto de iniciação científica e necessita de acesso a base de dados e estatísticas fornecidas pelo software
+- **Nome**: Carlos Alberto de Nóbrega Carlos, 20 anos  
+- **Profissão**: Estudante de Ciência da Computação  
+Carlos está desenvolvendo um projeto de iniciação científica com foco em mobilidade urbana. Ele utiliza a base de dados da aplicação para testes e validação de modelos computacionais.
+
 <img width="1024" height="574" alt="image" src="https://media.gettyimages.com/id/1182479258/pt/foto/an-african-american-university-student-studying-in-the-library-stock-photo.jpg?s=612x612&w=gi&k=20&c=4a36lnsy5t-M2Uro3UwgqlTEzNuSIjGoRrN_NPIOryU=" />
+
 
 ### Mapa de empatia
 

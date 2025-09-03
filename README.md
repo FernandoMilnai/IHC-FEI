@@ -105,16 +105,25 @@ Os usuários valorizam ferramentas com **experiência amigável**, **baixo tempo
 ### Pontos positivos identificados:
 
 - **Power BI**
-  - Alta integração com sistemas corporativos;
-  - Visualizações ricas e personalizáveis;
-  - Análises preditivas com suporte de IA;
+  - Alta integração com sistemas corporativos
+  - Visualizações ricas e personalizáveis
+  - Análises preditivas com suporte de IA
   - Capacidade de combinar diversas fontes de dados.
 
 - **Google Analytics**
-  - Forte integração com o ecossistema Google;
-  - Ideal para rastreamento de comportamento em ambientes web;
-  - Relatórios em tempo real e eventos personalizados;
+  - Forte integração com o ecossistema Google
+  - Ideal para rastreamento de comportamento em ambientes web
+  - Relatórios em tempo real e eventos personalizados
   - Gratuito e acessível para todos os níveis de usuários.
+ 
+ ### Pontos negativos identificados:
+- **Power BI**
+  - Falta de responsividade automática
+  - Dificuldade em lidar com contas pagas
+
+- **Google Analytics**
+  - Uso não muito intuitivo, tornando
+  - Sem muita variedade de gráficos
 
 ### Recomendações:
 

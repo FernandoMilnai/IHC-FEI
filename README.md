@@ -213,7 +213,7 @@ Ele vê no sistema uma fonte rica de dados para testar seus modelos, criar visua
 ## Contexto de uso
 
 - Descreva o ambiente em que o serviço ou poduto deve ser utilizado.
-   - Em um computador.
+   - Um ambiente de escritório convencional.
 - Qual/quais o(s) contexto(s) sociais, econômicos e culturais existentes neste ambiente?
    - LGPD
 - Quais informações sobre o ambiente, o serviço ou poduto deve guardar antes de iniciar a interação?

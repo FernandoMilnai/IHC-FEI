@@ -126,19 +126,19 @@ Os usuários valorizam ferramentas com **experiência amigável**, **baixo tempo
 ## Persona primária 1:
 - Roberto Carlos, 25 anos
  - Roberto Carlos é formado em Análise de dados, trabalha no metrô de São Pualo, SP.
-https://blog.dsacademy.com.br/wp-content/uploads/2022/02/Qual-a-Diferenca-Entre-Analista-de-Dados-e-Cientista-de-Dados.jpeg
+<img width="1024" height="574" alt="image" src="https://blog.dsacademy.com.br/wp-content/uploads/2022/02/Qual-a-Diferenca-Entre-Analista-de-Dados-e-Cientista-de-Dados.jpeg" />
 
 ## Persona primária 2:
 - Erasmo Carlos, 32 anos, engenheiro civil e a serviço da prefeitura queria espandir uma linha de metrô de SP e para maior eficácia consultaria o software para ter uma base de informações sobre horários de pico de uso, estações mais frequantadas, etc.
-https://media.istockphoto.com/id/1428349031/pt/foto/handsome-engineer.jpg?s=612x612&w=is&k=20&c=6fwjIEzOAPNddRvj7pVPpMhunMgR2iniC_LLrOmFEfA=
+<img width="1024" height="574" alt="image" src="https://media.istockphoto.com/id/1428349031/pt/foto/handsome-engineer.jpg?s=612x612&w=is&k=20&c=6fwjIEzOAPNddRvj7pVPpMhunMgR2iniC_LLrOmFEfA=" />
 
 ## Persona primária 3:
 - Fiuk Carlos, 43 anos, é policial, trabalhando no setor investigativo de desaparecidos consultaria o software na interface policial para procurar por indivíduos de interesse
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gettyimages.com.br%2Ffotos%2Fpolice-computer&psig=AOvVaw1zLIitJLf7WQaURLvxXkxp&ust=1757025109304000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCLD2_-HSvY8DFQAAAAAdAAAAABAM
+<img width="1024" height="574" alt="image" src="https://media.istockphoto.com/id/1347645338/pt/foto/police-detective-on-a-dark-background-a-policeman-at-work-tough-cop-fake-badge.jpg?s=1024x1024&w=is&k=20&c=Y754vE4HhhrIxgMAUpWOvDr-NOc6LsEyemcOILHsZ3I=" />
 
 ## Persona secundária:
 - Carlos Alberto de Nobrega Carlos, 20 anos, estudante de ciência da computação e está trabalhando em um projeto de iniciação científica e necessita de acesso a base de dados e estatísticas fornecidas pelo software
-https://media.gettyimages.com/id/1182479258/pt/foto/an-african-american-university-student-studying-in-the-library-stock-photo.jpg?s=612x612&w=gi&k=20&c=4a36lnsy5t-M2Uro3UwgqlTEzNuSIjGoRrN_NPIOryU=
+<img width="1024" height="574" alt="image" src="https://media.gettyimages.com/id/1182479258/pt/foto/an-african-american-university-student-studying-in-the-library-stock-photo.jpg?s=612x612&w=gi&k=20&c=4a36lnsy5t-M2Uro3UwgqlTEzNuSIjGoRrN_NPIOryU=" />
 
 ### Mapa de empatia
 

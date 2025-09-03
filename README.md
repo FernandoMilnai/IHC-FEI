@@ -66,6 +66,8 @@ Marcantes pela variedade de funcionalidades, versátil para diferenes aplicaçõ
 4. Avalie a experiência do usuário (UX).
 
 As principais críticas ao PowerBI são referentes à falta de responsividade automática de atualização dos gráficos e dificuldade de cancelar planos. Mas muito elogiado pela versatilidade de uso.
+<img width="945" height="403" alt="image" src="https://github.com/user-attachments/assets/1e41c3b6-6e2c-41f9-a06a-5f399660b9b9" />
+
 
 As principais críticas ao  Google Analytics é pelas utilidades limitadas comparado ao PowerBI e lógica mais complexa. Mas elogiado pela fácil integração com outros sistemas Google e acesso gratuito à nuvem.
   

@@ -126,30 +126,41 @@ Os usuários valorizam ferramentas com **experiência amigável**, **baixo tempo
 ## Persona primária 1:
 - **Nome**: Roberto Carlos, 25 anos  
 - **Profissão**: Analista de Dados  
-Roberto Carlos se formou em Ciência da Computação e foi efetivado na CPTM, onde analisa dados de câmeras e sensores em estações. Ele lida diariamente com grandes volumes de dados sobre movimentação de passageiros.
+Roberto Carlos se formou em Ciência da Computação em uma universidade pública de São Paulo e rapidamente se destacou no estágio na CPTM, sendo contratado como analista.  
+Ele trabalha com análise de dados operacionais, utilizando informações vindas das câmeras para otimizar o funcionamento das estações. É curioso, autodidata, e sempre busca formas de automatizar relatórios e criar insights com dados reais.
 
 <img width="1024" height="574" alt="image" src="https://blog.dsacademy.com.br/wp-content/uploads/2022/02/Qual-a-Diferenca-Entre-Analista-de-Dados-e-Cientista-de-Dados.jpeg" />
+
+---
 
 ## Persona primária 2:
 - **Nome**: Erasmo Carlos, 32 anos  
 - **Profissão**: Engenheiro Civil  
-Erasmo atua na prefeitura de São Paulo com projetos de infraestrutura urbana e expansão do metrô. Busca dados confiáveis para tomar decisões sobre horários de pico, demanda e localização estratégica de novas estações.
+Erasmo trabalha na Secretaria Municipal de Infraestrutura de São Paulo e está envolvido em projetos de mobilidade urbana. Tem a missão de propor a expansão da malha metroviária com base em dados técnicos e sociais.  
+Ele utiliza o software para embasar decisões com evidências, analisando horários de pico, fluxo de passageiros e regiões mais movimentadas. Tem experiência com leitura de mapas técnicos, geoprocessamento e espera agilidade no acesso às informações.
 
 <img width="1024" height="574" alt="image" src="https://media.istockphoto.com/id/1428349031/pt/foto/handsome-engineer.jpg?s=612x612&w=is&k=20&c=6fwjIEzOAPNddRvj7pVPpMhunMgR2iniC_LLrOmFEfA=" />
 
+---
+
 ## Persona primária 3:
 - **Nome**: Fiuk Carlos, 43 anos  
-- **Profissão**: Policial Civil – Setor de Desaparecidos  
-Fiuk trabalha com investigação de desaparecimentos, buscando padrões de movimentação e imagens em câmeras do metrô. Utiliza a interface policial do sistema para cruzar informações e rastrear indivíduos de interesse.
+- **Profissão**: Policial Civil – Setor de Pessoas Desaparecidas  
+Fiuk é investigador da polícia civil há mais de 15 anos e atua especificamente em casos de desaparecimento. Muitas vezes precisa analisar rapidamente o último paradeiro de uma pessoa com base em imagens e dados de movimentação.  
+Com acesso restrito à interface policial do sistema, ele busca registros de entrada e saída nas estações, comparações com imagens de câmeras e possíveis padrões de deslocamento. Valoriza rapidez, clareza e segurança da informação.
 
 <img width="1024" height="574" alt="image" src="https://media.istockphoto.com/id/1347645338/pt/foto/police-detective-on-a-dark-background-a-policeman-at-work-tough-cop-fake-badge.jpg?s=1024x1024&w=is&k=20&c=Y754vE4HhhrIxgMAUpWOvDr-NOc6LsEyemcOILHsZ3I=" />
+
+---
 
 ## Persona secundária:
 - **Nome**: Carlos Alberto de Nóbrega Carlos, 20 anos  
 - **Profissão**: Estudante de Ciência da Computação  
-Carlos está desenvolvendo um projeto de iniciação científica com foco em mobilidade urbana. Ele utiliza a base de dados da aplicação para testes e validação de modelos computacionais.
+Carlos é aluno de uma universidade federal e está em seu segundo ano do curso. Participa de um projeto de iniciação científica que estuda algoritmos preditivos aplicados à mobilidade urbana.  
+Ele vê no sistema uma fonte rica de dados para testar seus modelos, criar visualizações e entender padrões reais. Está aprendendo a lidar com grandes volumes de dados, APIs e conceitos de ciência de dados aplicada ao setor público.
 
 <img width="1024" height="574" alt="image" src="https://media.gettyimages.com/id/1182479258/pt/foto/an-african-american-university-student-studying-in-the-library-stock-photo.jpg?s=612x612&w=gi&k=20&c=4a36lnsy5t-M2Uro3UwgqlTEzNuSIjGoRrN_NPIOryU=" />
+
 
 
 ### Mapa de empatia

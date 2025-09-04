@@ -244,7 +244,11 @@ Ele vê no sistema uma fonte rica de dados para testar seus modelos, criar visua
 12. Fechou o software.
  
 ### Jornada Erasmo Carlos:
-1. 
+1. Erasmo foi contratado pela prefeitura de SP para planejar uma reforma em conexões do metrô de São Paulo e a construção de uma nova linha metroviária
+2. ⁠Lhe foi concedido acesso ao software para melhor análise de estatística reais obtidas pela instituição
+3. ⁠Abrindo o software e logando com o acesso que lhe foi dado, pode visualizar gráficos e estatísticas sobre estações e horários na qual ocorrem maior fluxo de instituição
+4. ⁠Assim auxiliando-o no planejamento da construção de uma nova linha e sabendo quais estações não seriam prejudicadas ao serem interditadas por alguns dias para a reforma
+5. Após finalizar o planejamento, informou a prefeitura. Perdendo seu acesso ao software
  
 ### Jornada Fiuk Carlos:
 1. Fiuk trabalha no setor investigativo  da polícia. E no seu último caso, foi encarregado de encontrar Ayrton Senna, um jovem desaparecido há 2 dias. A última informação que se tem sobre ele, é que foi visto entrando no metro de São Paulo com uma camiseta amarela

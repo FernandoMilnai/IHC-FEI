@@ -246,8 +246,13 @@ Ele vê no sistema uma fonte rica de dados para testar seus modelos, criar visua
 ### Jornada Erasmo Carlos:
 1. 
  
-### Fiuk Carlos:
-1. 
+### Jornada Fiuk Carlos:
+1. Fiuk trabalha no setor investigativo  da polícia. E no seu último caso, foi encarregado de encontrar Ayrton Senna, um jovem desaparecido há 2 dias. A última informação que se tem sobre ele, é que foi visto entrando no metro de São Paulo com uma camiseta amarela
+2. ⁠Fiuk solicitou à instituição do Metro uma procura por essas características.
+3. ⁠Um analista (Roberto Carlos) recebeu essa solicitação e usou o software para buscar registros com estas características fornecidas por Fiuk na solicitação.
+4. ⁠No informativo de busca por aparência selecionou, gênero: masculino, roupa: vermelha, Idade: 15-25. Selecionou “Pesquisar” e o resultado foi exibido no terminal. Ayrton foi avistado no dia 20/08/2025 as 13:42 entrando na praça da Sé, e saindo as 15:09 saindo na Liberdade, mostrando todo seu trajeto num grafo e imagens de suas aparições.
+5. ⁠Clicando no botão “Exportar” todas as informações fornecidas foram salvas num arquivo, no qual Roberto Carlos enviou para Fiuk Carlos
+6. ⁠Agora com as informações, Fiuk pode prosseguir com sua busca pelo jovem Ayrton
 
 <!--
 ## Análise de concorrência

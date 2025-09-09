@@ -269,6 +269,12 @@ Pessoa Secundária: Carlos Alberto de Nobrega Carlos
  -->
 
 ## Cenário de Análise/Problema
+
+Cenário Roberto Carlos:
+
+Cenário Erasmo Carlos:
+
+Cenário Fiuk Carlos:
  
 ## Coleta de dados
 

@@ -267,6 +267,8 @@ Pessoa Secundária: Carlos Alberto de Nobrega Carlos
   - Existe plataforma similar que atende o mesmo mercado e funcionalidades? Se sim: Quais os pontos positivos? Quais os pontos negativos?
   - Existe plataforma diferente quanto ao serviço, mas que atenda esse mercado? Se sim: Quais os pontos positivos? Quais os pontos negativos?
  -->
+
+## Cenário de Análise/Problema
  
 ## Coleta de dados
 

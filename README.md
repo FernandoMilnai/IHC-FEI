@@ -193,7 +193,7 @@ Ele vê no sistema uma fonte rica de dados para testar seus modelos, criar visua
   - Ganhos: nesse caso estamos falando de quaisquer benefícios ou recompensas que o usuário possa experimentar ao utilizar o serviço ou poduto. Isso pode incluir economia de tempo ou facilidade de uso, por exemplo. Que desejos do usuário o serviço ou poduto satisfaz?
 
 ### Mapa de empatia:
-- Pessoa primária: Roberto Carlos.
+Pessoa primária: Roberto Carlos.
 - Encontra-se num escritório convecional, normalmente se encontra com colegas de trabalho e diariamente utiliza o computador para trabalhar.
 - Normalmente sons de teclados e ocasionalmente conversas entre colegas de trabalho e ocasionalmente tutoriais de SQL no Youtube
 - Ele analisa dados e estatísticas recebidas e fornecidas pelo sofware, podendo reportar dados de análise de interesse aos seus superiores em um relatório.
@@ -202,7 +202,7 @@ Ele vê no sistema uma fonte rica de dados para testar seus modelos, criar visua
 - O produto auxilia-o em seu trabalho ao simplificar as estastísticas, organizando-as para que ele não precise fazer isso manualmente.
 
 
-- Pessoa Secundária: Carlos Alberto de Nobrega Carlos
+Pessoa Secundária: Carlos Alberto de Nobrega Carlos
 - Encontra-se em um laboratório da faculdade, normalmente vê colegas e professores da faculdade, utiliza diariamente um computador para trabalhar em seu projeto.
 - Conversas de alunos e professores e notificações de seu orientador.
 - Ele adquiri a base de dados para testar em seu projeto, gerando ocasionalmente dados aleatórios.

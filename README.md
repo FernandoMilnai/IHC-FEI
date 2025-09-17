@@ -145,7 +145,7 @@ Os usuários valorizam ferramentas com **experiência amigável**, **baixo tempo
 Roberto Carlos se formou em Ciência da Computação em uma universidade pública de São Paulo e rapidamente se destacou no estágio na CPTM, sendo contratado como analista.  
 Ele trabalha com análise de dados operacionais, utilizando informações vindas das câmeras para otimizar o funcionamento das estações. É curioso, autodidata, e sempre busca formas de automatizar relatórios e criar insights com dados reais.
 
-<img width="1024" height="574" alt="image" src="https://blog.dsacademy.com.br/wp-content/uploads/2022/02/Qual-a-Diferenca-Entre-Analista-de-Dados-e-Cientista-de-Dados.jpeg" />
+<img width="936" height="908" alt="image" src="https://github.com/user-attachments/assets/8ff8027b-74d1-46b8-9438-cfed5dd6840e" />
 
 ---
 
@@ -154,8 +154,7 @@ Ele trabalha com análise de dados operacionais, utilizando informações vindas
 - **Profissão**: Engenheiro Civil  
 Erasmo trabalha na Secretaria Municipal de Infraestrutura de São Paulo e está envolvido em projetos de mobilidade urbana. Tem a missão de propor a expansão da malha metroviária com base em dados técnicos e sociais.  
 Ele utiliza o software para embasar decisões com evidências, analisando horários de pico, fluxo de passageiros e regiões mais movimentadas. Tem experiência com leitura de mapas técnicos, geoprocessamento e espera agilidade no acesso às informações.
-
-<img width="1024" height="574" alt="image" src="https://media.istockphoto.com/id/1428349031/pt/foto/handsome-engineer.jpg?s=612x612&w=is&k=20&c=6fwjIEzOAPNddRvj7pVPpMhunMgR2iniC_LLrOmFEfA=" />
+<img width="935" height="911" alt="image" src="https://github.com/user-attachments/assets/7abbe888-bc42-4227-80c5-187561c47933" />
 
 ---
 
@@ -165,7 +164,7 @@ Ele utiliza o software para embasar decisões com evidências, analisando horár
 Fiuk é investigador da polícia civil há mais de 15 anos e atua especificamente em casos de desaparecimento. Muitas vezes precisa analisar rapidamente o último paradeiro de uma pessoa com base em imagens e dados de movimentação.  
 Com acesso restrito à interface policial do sistema, ele busca registros de entrada e saída nas estações, comparações com imagens de câmeras e possíveis padrões de deslocamento. Valoriza rapidez, clareza e segurança da informação.
 
-<img width="1024" height="574" alt="image" src="https://media.istockphoto.com/id/1347645338/pt/foto/police-detective-on-a-dark-background-a-policeman-at-work-tough-cop-fake-badge.jpg?s=1024x1024&w=is&k=20&c=Y754vE4HhhrIxgMAUpWOvDr-NOc6LsEyemcOILHsZ3I=" />
+<img width="939" height="909" alt="image" src="https://github.com/user-attachments/assets/c0dbfda6-f0a9-404f-9f17-73a889db9686" />
 
 ---
 
@@ -175,8 +174,7 @@ Com acesso restrito à interface policial do sistema, ele busca registros de ent
 Carlos é aluno de uma universidade federal e está em seu segundo ano do curso. Participa de um projeto de iniciação científica que estuda algoritmos preditivos aplicados à mobilidade urbana.  
 Ele vê no sistema uma fonte rica de dados para testar seus modelos, criar visualizações e entender padrões reais. Está aprendendo a lidar com grandes volumes de dados, APIs e conceitos de ciência de dados aplicada ao setor público.
 
-<img width="1024" height="574" alt="image" src="https://media.gettyimages.com/id/1182479258/pt/foto/an-african-american-university-student-studying-in-the-library-stock-photo.jpg?s=612x612&w=gi&k=20&c=4a36lnsy5t-M2Uro3UwgqlTEzNuSIjGoRrN_NPIOryU=" />
-
+<img width="933" height="915" alt="image" src="https://github.com/user-attachments/assets/98ab1eba-e3b6-4b5f-8ccd-c488242b8ded" />
 
 
 ### Mapa de empatia
@@ -276,19 +274,33 @@ Cenário Roberto Carlos:
 - Refinamento
   - 1: Quanto tempo ele gasta organizando os relatórios manualmente?
   - 2: Esse retrabalho impacta prazos ou a qualidade das análises que entrega?
-  - 3: O sistema atual tem suporte para integração com outras ferramentas que ele domina (Python, Power BI, etc.)?
+  - 3: O sistema atual tem suporte para integração com outras ferramentas que ele domina?
   - 4: Como ele se sente em relação à diferença entre o potencial que poderia alcançar e as limitações do sistema?
   - 5: Quem fornece as informações para ele?
+  - 6: Em que situações o cenário ocorre?
+  - 7: Por que ele precisa alcançar o objetivo?
+  - 8: De quais conhecimentos ele precisa para realizar este objetivo?
+  - 9: Quais informações são usadas para concluir o objetivo?
+  - 10: Quais dispositivos e recursos são necessários para concluir o objetivo?
 - Refinamento do cenário
-  - Roberto Carlos, 25 anos, analista de dados na CPTM, dedica parte significativa do seu tempo a analisar informações provenientes das câmeras de monitoramento das estações. O sistema atual, porém, gera relatórios fragmentados, em formatos pouco flexíveis e sem integração com outras ferramentas de análise[3]. Por isso, Roberto precisa exportar manualmente os arquivos fornecidos pelos seu chefe[5], reorganizá-los em planilhas e só então conseguir aplicar suas técnicas de análise e automação. Esse retrabalho consome em média 2 a 3 horas do seu expediente diário[1], reduzindo o tempo disponível para gerar insights estratégicos[2]. Roberto se sente limitado, pois sabe que poderia entregar resultados mais inovadores se tivesse acesso a dados organizados e a uma interface mais eficiente[4].
+  - Roberto Carlos, 25 anos, analista de dados na CPTM, dedica parte significativa do seu tempo a analisar informações provenientes das câmeras de monitoramento das estações[9], a fim de cobrir sua cota diária[7]. O sistema atual, porém, gera constantemente[6] relatórios fragmentados, em formatos pouco flexíveis e sem integração com outras ferramentas de análise[3]. Por isso, Roberto precisa exportar manualmente os arquivos fornecidos por seu chefe[5], reorganizá-los em planilhas em seu computador[10] e só então conseguir aplicar suas técnicas de análise e automação[8]. Esse retrabalho consome em média 2 a 3 horas do seu expediente diário[1], reduzindo o tempo disponível para gerar insights estratégicos[2]. Roberto se sente limitado, pois sabe que poderia entregar resultados mais inovadores se tivesse acesso a dados organizados e a uma interface mais eficiente[4].
 
 Cenário Erasmo Carlos:
 - Cenário
-  - Erasmo Carlos, 32 anos, Engenheiro civil da Secretaria Municipal de São Paulo e possui muitos projetos em
+  - Erasmo Carlos, 32 anos, Engenheiro civil da Secretaria Municipal de São Paulo e está trabalhando principalmente em projetos de mobilidade urbana, envolvendo as instalações públicas da cidade de São Paulo. Entre estes projetos, Erasmo se encontra com a missão de propor a expansão da malha metroviária, e para isso, ele precisa de dados técnicos e sociais como fluxo de passageiros, horários de pico e regiões de maior movimento. Apesar de atualmente conseguir tais dados, Erasmo se encontra estressado por precisar gastar de 3 a 4 horas apenas para realizar tais pesquisas, visto que existem poucas ferramentas capazes de auxiliá-lo na coleta de dados.
 - Refinamento
-  - 
+  - 1: Em que situações o cenário ocorre?
+  - 2: Por que ele precisa alcançar este objetivo?
+  - 3: Quais informações são usadas para concluir o objetivo?
+  - 4: Como ele se sente em relação à diferença entre o potencial que poderia alcançar e as limitações do sistema?
+  - 5: Quanto tempo ele gasta realizando as pesquisas manualmente?
+  - 6: Que pressões existem para o alcance do objetivo?
+  - 7: Como ele alcança o objetivo atualmente?
+  - 8: Qual é a função do dele?
+  - 9: Quem depende do alcance do objetivo?
+  - 10: Quem fornece as informações necessárias para alcançar o objetivo
 - Refinamento do cenário
-  - 
+  - Erasmo Carlos, 32 anos, Engenheiro civil da Secretaria Municipal de São Paulo[8][9] e está trabalhando principalmente em projetos de mobilidade urbana, envolvendo as instalações públicas da cidade de São Paulo[1]. Entre estes projetos, Erasmo se encontra com a missão de propor a expansão da malha metroviária[2] até o próximo mês[6], e para isso, ele precisa de dados técnicos e sociais como fluxo de passageiros, horários de pico e regiões de maior movimento[3]. Apesar de atualmente conseguir tais dados por relatórios de passagem das catracas e câmeras de segurança das vias metroviárias[7][10], Erasmo se encontra estressado[4] por precisar gastar de 3 a 4 horas apenas para realizar tais pesquisas[5], visto que existem poucas ferramentas capazes de auxiliá-lo na coleta de dados.
 
 Cenário Fiuk Carlos:
 - Cenário

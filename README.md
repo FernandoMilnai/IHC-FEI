@@ -278,8 +278,9 @@ Cenário Roberto Carlos:
   - 2: Esse retrabalho impacta prazos ou a qualidade das análises que entrega?
   - 3: O sistema atual tem suporte para integração com outras ferramentas que ele domina (Python, Power BI, etc.)?
   - 4: Como ele se sente em relação à diferença entre o potencial que poderia alcançar e as limitações do sistema?
+  - 5: Quem fornece as informações para ele?
 - Refinamento do cenário
-  - Roberto Carlos, 25 anos, analista de dados na CPTM, dedica parte significativa do seu tempo a analisar informações provenientes das câmeras de monitoramento das estações. O sistema atual, porém, gera relatórios fragmentados, em formatos pouco flexíveis e sem integração com outras ferramentas de análise[3]. Por isso, Roberto precisa exportar manualmente os arquivos, reorganizá-los em planilhas e só então conseguir aplicar suas técnicas de análise e automação. Esse retrabalho consome em média 2 a 3 horas do seu expediente diário[1], reduzindo o tempo disponível para gerar insights estratégicos[2]. Roberto se sente limitado, pois sabe que poderia entregar resultados mais inovadores se tivesse acesso a dados organizados e a uma interface mais eficiente[4].
+  - Roberto Carlos, 25 anos, analista de dados na CPTM, dedica parte significativa do seu tempo a analisar informações provenientes das câmeras de monitoramento das estações. O sistema atual, porém, gera relatórios fragmentados, em formatos pouco flexíveis e sem integração com outras ferramentas de análise[3]. Por isso, Roberto precisa exportar manualmente os arquivos fornecidos pelos seu chefe[5], reorganizá-los em planilhas e só então conseguir aplicar suas técnicas de análise e automação. Esse retrabalho consome em média 2 a 3 horas do seu expediente diário[1], reduzindo o tempo disponível para gerar insights estratégicos[2]. Roberto se sente limitado, pois sabe que poderia entregar resultados mais inovadores se tivesse acesso a dados organizados e a uma interface mais eficiente[4].
 
 Cenário Erasmo Carlos:
 - Cenário

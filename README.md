@@ -4,8 +4,8 @@ Projeto apresentado ao Centro Universitário [FEI](https://portal.fei.edu.br/), 
 
 Este projeto se baseia no Trabalho de Conclusão de Curso (TCC) entitulado **Mapeamento de trajetos e fluxo de pessoas com base em dados processados de rastreamento multicâmera** sob orientação do Professor **Ricardo de Carvalho Destro** e desenvolvido pelos seguintes alunos:
 
-- Fernando Milani Venerando
-- Lucas Rezende Simões
+- Fernando Milani Venerando RA:24.122.063-1
+- Lucas Rezende Simões RA: 24.122.028-4
 
 ## Resumo
 Um software capaz de apresentarum relatório contendo trajeto e fluxo dos indivíduos, processando dados obtidos por câmeras de segurança
@@ -301,14 +301,14 @@ Cenário Erasmo Carlos:
   - 10: Quem fornece as informações necessárias para alcançar o objetivo
 - Refinamento do cenário
   - Erasmo Carlos, 32 anos, Engenheiro civil da Secretaria Municipal de São Paulo[8][9] e está trabalhando principalmente em projetos de mobilidade urbana, envolvendo as instalações públicas da cidade de São Paulo[1]. Entre estes projetos, Erasmo se encontra com a missão de propor a expansão da malha metroviária[2] até o próximo mês[6], e para isso, ele precisa de dados técnicos e sociais como fluxo de passageiros, horários de pico e regiões de maior movimento[3]. Apesar de atualmente conseguir tais dados por relatórios de passagem das catracas e câmeras de segurança das vias metroviárias[7][10], Erasmo se encontra estressado[4] por precisar gastar de 3 a 4 horas apenas para realizar tais pesquisas[5], visto que existem poucas ferramentas capazes de auxiliá-lo na coleta de dados.
+ 
+## Análise de tarefas
 
-Cenário Fiuk Carlos:
-- Cenário
-  - 
-- Refinamento
-  - 
-- Refinamento do cenário
-  - 
+Funcionalidades:
+- Importação da base de dados
+- Criação de grafo do ambiente
+- Pesquisa de dados via SQL
+- Análise de discrepâncias
  
 ## Coleta de dados
 

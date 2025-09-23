@@ -305,10 +305,24 @@ Cenário Erasmo Carlos:
 ## Análise de tarefas
 
 Funcionalidades:
-- Importação da base de dados
 - Criação de grafo do ambiente
-- Pesquisa de dados via SQL
+- Pesquisa de dados
 - Análise de discrepâncias
+
+
+HTAs:
+- Função: Criação de grafo do ambiente
+- Descrição: Permite ao usuário importar ou criar o mapa de câmeras onde o programa realizrá as análises.
+![HTA Func 1](https://github.com/user-attachments/assets/d3ae1505-47ac-492d-9ed0-06f48b5367dc)
+
+- Função: Pesquisa de dados
+- Descrição: Permite ao usuário filtrar os resultados do programa por meio de botões ou querries de SQL
+![HTA Func 2](https://github.com/user-attachments/assets/217d335a-d2b7-495a-856c-c02341367b56)
+
+
+- Função: Análise de discrepâncias
+- Descrição: Apresenta ao usuário um relatório com as discrepâncias detectadas para que este as resolva.
+
  
 ## Coleta de dados
 

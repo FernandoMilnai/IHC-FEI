@@ -304,33 +304,52 @@ Cenário Erasmo Carlos:
  
 ## Análise de tarefas
 
-Funcionalidades:
+### Funcionalidades:
 - Criação de grafo do ambiente
 - Pesquisa de dados
 - Análise de discrepâncias
 - Conexão com base de dados
 
 
-HTAs:
-- Função: Criação de grafo do ambiente
-- Descrição: Permite ao usuário importar ou criar o mapa de câmeras onde o programa realizrá as análises.
+### HTAs:
+Função: Criação de grafo do ambiente
+Descrição: Permite ao usuário importar ou criar o mapa de câmeras onde o programa realizrá as análises.
 ![HTA Func 1](https://github.com/user-attachments/assets/d3ae1505-47ac-492d-9ed0-06f48b5367dc)
 
-- Função: Pesquisa de dados
-- Descrição: Permite ao usuário filtrar os resultados do programa por meio de botões ou querries de SQL
+Função: Pesquisa de dados
+Descrição: Permite ao usuário filtrar os resultados do programa por meio de botões ou querries de SQL
 ![HTA Func 2](https://github.com/user-attachments/assets/217d335a-d2b7-495a-856c-c02341367b56)
 
 
-- Função: Análise de discrepâncias
-- Descrição: Apresenta ao usuário um relatório com as discrepâncias detectadas para que este as resolva.
+Função: Análise de discrepâncias
+Descrição: Apresenta ao usuário um relatório com as discrepâncias detectadas para que este as resolva.
 ![HTA Func 3](https://github.com/user-attachments/assets/039b4ea0-ec3d-4650-aa0a-d6b64b102522)
 
 
-- Função: Conexão com base de dados
-- Descrição: Permite ao usuário importar e exportar uma base de dados via arquivo ou conectar o programa a um banco de dados externo.
+Função: Conexão com base de dados
+Descrição: Permite ao usuário importar e exportar uma base de dados via arquivo ou conectar o programa a um banco de dados externo.
 ![HTA Func 4](https://github.com/user-attachments/assets/235e537e-5957-4cda-b878-3d0bf1ab91cf)
 
-GOMS
+### GOMS
+
+Criação de grafo do ambiente
+- GOAL 0: Gerar um grafo direcionado.
+  - METHOD 0.A: Criar grafo a partir de arquivo
+  - (SEL. RULE: Existência de um arquivo contendo os dados do grafo a ser gerado)
+    - OP 0.A.1: Selecionar opção de abrir arquivo
+    - OP 0.A.2: Selecionar arquivo
+  - METHOD 0.B: Criar grafo a partir do usuário
+  - (SEL. RULE: Preferência do usuário)
+    - OP 0.B.1: Selecionar opção de criar novo mapa
+    - METHOD 0.B.2: Adicionar vértice
+      - OP 0.B.2.A: Pressionar o botão esquerdo do mouse na área vazia do editor
+    - METHOD 0.B.3: Remover vértice
+      - OP 0.B.3.A: Pressionar o botão esquerdo do mouse em um vérice já criado
+    - METHOD 0.B.4: Conectar vértices
+      - OP 0.B.4.A: Pressionar o botão direito do mouse em um vérice já criado
+      - OP 0.B.4.B: Pressionar o botão esquerdo do mouse em um vérice diferente do anterior
+    - METHOD 0.B.5: Definir vértice de entrada
+      - OP 0.B.5.A: Pressionar o botão do meio do mouse em um vérice já criado
 
  
 ## Coleta de dados

@@ -308,6 +308,7 @@ Funcionalidades:
 - Criação de grafo do ambiente
 - Pesquisa de dados
 - Análise de discrepâncias
+- Conexão com base de dados
 
 
 HTAs:
@@ -322,6 +323,14 @@ HTAs:
 
 - Função: Análise de discrepâncias
 - Descrição: Apresenta ao usuário um relatório com as discrepâncias detectadas para que este as resolva.
+![HTA Func 3](https://github.com/user-attachments/assets/039b4ea0-ec3d-4650-aa0a-d6b64b102522)
+
+
+- Função: Conexão com base de dados
+- Descrição: Permite ao usuário importar e exportar uma base de dados via arquivo ou conectar o programa a um banco de dados externo.
+![HTA Func 4](https://github.com/user-attachments/assets/235e537e-5957-4cda-b878-3d0bf1ab91cf)
+
+GOMS
 
  
 ## Coleta de dados

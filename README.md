@@ -312,22 +312,30 @@ Cenário Erasmo Carlos:
 
 
 ### HTAs:
-Função: Criação de grafo do ambiente
+Criação de grafo do ambiente
+
 Descrição: Permite ao usuário importar ou criar o mapa de câmeras onde o programa realizrá as análises.
+
 ![HTA Func 1](https://github.com/user-attachments/assets/d3ae1505-47ac-492d-9ed0-06f48b5367dc)
 
-Função: Pesquisa de dados
+Pesquisa de dados
+
 Descrição: Permite ao usuário filtrar os resultados do programa por meio de botões ou querries de SQL
+
 ![HTA Func 2](https://github.com/user-attachments/assets/217d335a-d2b7-495a-856c-c02341367b56)
 
 
-Função: Análise de discrepâncias
+Análise de discrepâncias
+
 Descrição: Apresenta ao usuário um relatório com as discrepâncias detectadas para que este as resolva.
+
 ![HTA Func 3](https://github.com/user-attachments/assets/039b4ea0-ec3d-4650-aa0a-d6b64b102522)
 
 
-Função: Conexão com base de dados
+Conexão com base de dados
+
 Descrição: Permite ao usuário importar e exportar uma base de dados via arquivo ou conectar o programa a um banco de dados externo.
+
 ![HTA Func 4](https://github.com/user-attachments/assets/235e537e-5957-4cda-b878-3d0bf1ab91cf)
 
 ### GOMS
@@ -350,6 +358,36 @@ Criação de grafo do ambiente
       - OP 0.B.4.B: Pressionar o botão esquerdo do mouse em um vérice diferente do anterior
     - METHOD 0.B.5: Definir vértice de entrada
       - OP 0.B.5.A: Pressionar o botão do meio do mouse em um vérice já criado
+       
+Pesquisa de dados
+- GOAL 0: Encontrar uma série de dados desejada pelo usuário
+- (SEL. RULE: Banco de dados já carregado)
+  - METHOD 0.A: Buscar dados por SQL
+  - (SEL. RULE: Preferência do usuário)
+    - OP 0.A.1: Digitar código SQL na caixa de texto
+    - OP 0.A.2: Clicar no botão de buscar logo abaixo da caixa de texto
+  - METHOD 0.B: Buscar dados por botões
+  - (SEL. RULE: Praticidade)
+    - METHOD 0.B.1: Buscar por hash
+    - (SEL. RULE: Preferência)
+      - OP 0.B.1.A: Inserir o id da hash na caixa de texto correspondente
+      - OP 0.B.1.B: Selecionar o botão correspondente para buscar
+    - METHOD 0.B.2: Buscar por câmera
+    - (SEL. RULE: Preferência)
+      - OP 0.B.2.A: Inserir o id da câmera na caixa de texto correnspondente
+      - OP 0.B.2.B: Selecionar o botão correspondente para buscar
+    - METHOD 0.B.3: Buscar por tempo
+    - (SEL. RULE: Preferência)
+      - OP 0.B.3.A: Inserir os valores do período de tempo desejado na caixa de texto correspondente
+      - OP 0.B.3.B: Selecionar o botão correspondente para buscar
+    - METHOD 0.B.4: Buscar por linha
+    - (SEL. RULE: Preferência)
+      - OP 0.B.4.A: Inserir o id da linha na caixa de texto correspondente
+      - OP 0.B.4.B: Selecionar o botão correspondente para buscar
+
+Análise de discrepâncias
+- GOAL 0: Corrigir discrepâncias identificadas
+- (SEL. RULE: Banco de dados já carregado)
 
  
 ## Coleta de dados

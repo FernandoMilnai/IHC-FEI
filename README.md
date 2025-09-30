@@ -404,6 +404,15 @@ Análise de discrepâncias
      - 
 
 ## Prototipação
+[Apresentação1.pptx](https://github.com/user-attachments/files/22627512/Apresentacao1.pptx)
+<img width="1280" height="720" alt="Slide2" src="https://github.com/user-attachments/assets/5514a0bc-e227-4eaf-80bb-3cc9ed603d23" />
+<img width="1280" height="720" alt="Slide3" src="https://github.com/user-attachments/assets/b6bb33de-8035-4f59-a49e-59fb47ee8225" />
+<img width="1280" height="720" alt="Slide4" src="https://github.com/user-attachments/assets/dc368a3f-f2f4-451b-b0aa-e854e9787b97" />
+<img width="1280" height="720" alt="Slide5" src="https://github.com/user-attachments/assets/efb8479c-f994-452c-9fae-39d262beba8f" />
+<img width="1280" height="720" alt="Slide6" src="https://github.com/user-attachments/assets/e5ee8e8d-d2d1-43e6-a590-eabc06e947da" />
+<img width="1280" height="720" alt="Slide7" src="https://github.com/user-attachments/assets/37b3df6e-27ca-4939-8a62-bc156148a34a" />
+<img width="1280" height="720" alt="Slide8" src="https://github.com/user-attachments/assets/aa32afb2-87c4-4c78-b552-f0cc733d3926" />
+
  
 ## Coleta de dados
 

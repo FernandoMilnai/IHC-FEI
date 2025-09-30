@@ -400,8 +400,9 @@ Análise de discrepâncias
       - OP 1.B.2: O usuário seleciona a opção de hash irrastreável em um menu pop-up
       - OP 1.A.1: O usuário confirma a mudança no menu pop-up
    - GOAL 2: Corrigir discrepâncias
-   - (SET. RULE: Discrepâncias já selecionadas)
-     - 
+   - (SET. RULE: Mudanças relacionadas às discrepâncias já realizadas)
+     - OP 2.A: Usuário analisa o histórico de mudanças em um menu pop-up
+     - OP 2.B: Usuário seleciona o botão de confirmar no menu pop-up
 
 ## Prototipação
 [Apresentação1.pptx](https://github.com/user-attachments/files/22627512/Apresentacao1.pptx)

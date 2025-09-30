@@ -388,7 +388,22 @@ Pesquisa de dados
 Análise de discrepâncias
 - GOAL 0: Corrigir discrepâncias identificadas
 - (SEL. RULE: Banco de dados já carregado)
+  - GOAL 1: Identificar discrepâncias corrigíveis
+  - (SEL. RULE: Usuário com relatório de discrepâncias)
+    - METHOD 1.A: Identificar aparecimento inconsistente
+      - OP 1.A.1: O usuário seleciona a hash que apareceu em uma câmera inválida
+      - OP 1.A.2: O usuário seleciona esta hash em uma câmera válida
+      - OP 1.A.3: O usuário seleciona as câmeras percorridas por aquela hash no grafo
+      - OP 1.A.4: O usuário confirma as mudanças em um menu pop-up
+    - METHOD 1.B: Relatar impossibilidade
+      - OP 1.B.1: O usuário seleciona a hash
+      - OP 1.B.2: O usuário seleciona a opção de hash irrastreável em um menu pop-up
+      - OP 1.A.1: O usuário confirma a mudança no menu pop-up
+   - GOAL 2: Corrigir discrepâncias
+   - (SET. RULE: Discrepâncias já selecionadas)
+     - 
 
+## Prototipação
  
 ## Coleta de dados
 

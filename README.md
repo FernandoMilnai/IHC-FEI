@@ -404,6 +404,37 @@ Análise de discrepâncias
      - OP 2.A: Usuário analisa o histórico de mudanças em um menu pop-up
      - OP 2.B: Usuário seleciona o botão de confirmar no menu pop-up
 
+Conexão com base de dados
+- GOAL 0: Criar uma base de dados.
+- (SEL. RULE: Aplicação aberta)
+  - METHOD 0.A: Importar por arquivo .csv
+  - (SEL. RULE: Usuário possuir um arquivo .csv)
+    - OP 0.A.1: O usuário seleciona o botão respectivo para importar banco de dados
+    - OP 0.A.2: O usuário seleciona o arquivo com a extensão .csv que possua os dados desejados
+    - OP 0.A.3: O usuário confirma e aguarda a aplicação executar as mudanças necessárias
+  - METHOD 0.B: Conectar programa a um banco de dados
+  - (SEL. RULE: Existir um banco de dados com as informações necessárias)
+    - METHOD 0.B.1: Conectar a um banco de dados SQL
+    - (SEL. RULE: Tipo do banco de dados)
+      - OP 0.B.1.A: O usuário seleciona o botão respectivo para conectar a um banco de dados
+      - OP 0.B.1.B: O usuário seleciona a opção "SQL" em um menu pop-up que surgirá
+      - OP 0.B.1.C: O usuário insere as informações para conectar ao banco de dados SQL nas caixas de texto no menu pop-up
+      - OP 0.B.1.D: O usuário seleciona o botão "Conectar" no menu pop-up
+    - METHOD 0.B.2: Conectar a um banco de dados MongoDB
+    - (SEL. RULE: Tipo de banco de dados)
+      - OP 0.B.2.A: O usuário seleciona o botão respectivo para conectar a um banco de dados
+      - OP 0.B.2.B: O usuário seleciona a opção "MongoDB" em um menu pop-up que surgirá
+      - OP 0.B.2.C: O usuário insere as informações para conectar ao banco de dados MongoDB nas caixas de texto no menu pop-up
+      - OP 0.B.2.D: O usuário seleciona o botão "Conectar" no menu pop-up
+- GOAL 1: Exportar base de dados
+- (SEL. RULE: Preferência do usuário)
+  - METHOD 1.A: Exportar via arquivo
+  - (SEL. RULE: Espaço de armazenamento)
+    - OP 1.A.1: O usuário seleciona opção de exportar dados em um menu drop-down
+    - OP 1.A.2: O usuário insere o nome do arquivo em um menu pop-up que surgirá
+    - OP 1.A.3: O usuário seleciona a pasta em que o arquivo será armazenado em uma janela do explorador de arquivos
+    - OP 1.A.4: O usuário seleciona o botão "Salvar" para salvar o arquivo na pasta selecionada
+
 ## Prototipação
 [Apresentação1.pptx](https://github.com/user-attachments/files/22627512/Apresentacao1.pptx)
 <img width="1280" height="720" alt="Slide2" src="https://github.com/user-attachments/assets/5514a0bc-e227-4eaf-80bb-3cc9ed603d23" />

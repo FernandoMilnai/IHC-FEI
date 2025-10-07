@@ -350,13 +350,17 @@ Criação de grafo do ambiente
   - (SEL. RULE: Preferência do usuário)
     - OP 0.B.1: Selecionar opção de criar novo mapa
     - METHOD 0.B.2: Adicionar vértice
+    - (SEL. RULE: Necessidade do usuário)
       - OP 0.B.2.A: Pressionar o botão esquerdo do mouse na área vazia do editor
     - METHOD 0.B.3: Remover vértice
+    - (SEL. RULE: Necessidade do usuário)
       - OP 0.B.3.A: Pressionar o botão esquerdo do mouse em um vérice já criado
     - METHOD 0.B.4: Conectar vértices
+    - (SEL. RULE: Necessidade do usuário)
       - OP 0.B.4.A: Pressionar o botão direito do mouse em um vérice já criado
       - OP 0.B.4.B: Pressionar o botão esquerdo do mouse em um vérice diferente do anterior
     - METHOD 0.B.5: Definir vértice de entrada
+    - (SEL. RULE: Necessidade do usuário)
       - OP 0.B.5.A: Pressionar o botão do meio do mouse em um vérice já criado
        
 Pesquisa de dados
@@ -391,11 +395,13 @@ Análise de discrepâncias
   - GOAL 1: Identificar discrepâncias corrigíveis
   - (SEL. RULE: Usuário com relatório de discrepâncias)
     - METHOD 1.A: Identificar aparecimento inconsistente
+    - (SEL. RULE: Existência de discrepâncias)
       - OP 1.A.1: O usuário seleciona a hash que apareceu em uma câmera inválida
       - OP 1.A.2: O usuário seleciona esta hash em uma câmera válida
       - OP 1.A.3: O usuário seleciona as câmeras percorridas por aquela hash no grafo
       - OP 1.A.4: O usuário confirma as mudanças em um menu pop-up
     - METHOD 1.B: Relatar impossibilidade
+    - (SEL. RULE: Impossibilidade de resolução da discrepância)
       - OP 1.B.1: O usuário seleciona a hash
       - OP 1.B.2: O usuário seleciona a opção de hash irrastreável em um menu pop-up
       - OP 1.A.1: O usuário confirma a mudança no menu pop-up
@@ -443,7 +449,8 @@ Conexão com base de dados
 <img width="1280" height="720" alt="Slide5" src="https://github.com/user-attachments/assets/efb8479c-f994-452c-9fae-39d262beba8f" />
 <img width="1280" height="720" alt="Slide6" src="https://github.com/user-attachments/assets/e5ee8e8d-d2d1-43e6-a590-eabc06e947da" />
 <img width="1280" height="720" alt="Slide7" src="https://github.com/user-attachments/assets/37b3df6e-27ca-4939-8a62-bc156148a34a" />
-<img width="1280" height="720" alt="Slide8" src="https://github.com/user-attachments/assets/aa32afb2-87c4-4c78-b552-f0cc733d3926" />
+<img width="1280" height="720" alt="Slide8" src="https://github.com/user-attachments/assets/1ca0f823-0ee5-4e63-9d9a-0fc797360cde" />
+
 
  
 ## Coleta de dados

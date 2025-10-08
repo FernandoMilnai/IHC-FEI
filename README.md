@@ -318,11 +318,12 @@ Descrição: Permite ao usuário importar ou criar o mapa de câmeras onde o pro
 
 ![HTA Func 1](https://github.com/user-attachments/assets/d3ae1505-47ac-492d-9ed0-06f48b5367dc)
 
+
 Pesquisa de dados
 
 Descrição: Permite ao usuário filtrar os resultados do programa por meio de botões ou querries de SQL
 
-![HTA Func 2](https://github.com/user-attachments/assets/217d335a-d2b7-495a-856c-c02341367b56)
+![HTA Func 2](https://github.com/user-attachments/assets/f7e3449f-bcb9-4a1b-81e4-f80a52ff48bd)
 
 
 Análise de discrepâncias
@@ -336,7 +337,8 @@ Conexão com base de dados
 
 Descrição: Permite ao usuário importar e exportar uma base de dados via arquivo ou conectar o programa a um banco de dados externo.
 
-![HTA Func 4](https://github.com/user-attachments/assets/235e537e-5957-4cda-b878-3d0bf1ab91cf)
+![HTA Func 4](https://github.com/user-attachments/assets/37419315-a64d-433d-8ae6-4df7e795b3b7)
+
 
 ### GOMS
 

@@ -443,6 +443,20 @@ Conexão com base de dados
     - OP 1.A.3: O usuário seleciona a pasta em que o arquivo será armazenado em uma janela do explorador de arquivos
     - OP 1.A.4: O usuário seleciona o botão "Salvar" para salvar o arquivo na pasta selecionada
 
+### CTT
+
+Criação de grafo de ambiente
+
+![ctt1](https://github.com/user-attachments/assets/5d33b8a5-c395-4d83-927b-ff8668e63c22)
+
+Pesquisa de dados
+
+![ctt2](https://github.com/user-attachments/assets/402899b8-2ea3-40e1-84cd-55362c94e3f5)
+
+Análise de discrepâncias
+
+Conexão com base de dados
+
 ## Prototipação
 [Apresentação1.pptx](https://github.com/user-attachments/files/22627512/Apresentacao1.pptx)
 <img width="1280" height="720" alt="Slide2" src="https://github.com/user-attachments/assets/5514a0bc-e227-4eaf-80bb-3cc9ed603d23" />

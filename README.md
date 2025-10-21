@@ -447,11 +447,11 @@ Conexão com base de dados
 
 Criação de grafo de ambiente
 
-![ctt1](https://github.com/user-attachments/assets/5d33b8a5-c395-4d83-927b-ff8668e63c22)
+![ctt1](https://github.com/user-attachments/assets/3dae53af-dc53-4f09-82f8-bf012187ff1f)
 
 Pesquisa de dados
 
-![ctt2](https://github.com/user-attachments/assets/402899b8-2ea3-40e1-84cd-55362c94e3f5)
+![ctt2](https://github.com/user-attachments/assets/5bf759f0-6130-40a1-8dcf-50241095c3ee)
 
 Análise de discrepâncias
 

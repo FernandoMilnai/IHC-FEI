@@ -451,14 +451,16 @@ Criação de grafo de ambiente
 
 Pesquisa de dados
 
-![ctt2](https://github.com/user-attachments/assets/5bf759f0-6130-40a1-8dcf-50241095c3ee)
+![ctt2](https://github.com/user-attachments/assets/401bf107-e824-4a15-ada2-75e5428f7edd)
 
 Análise de discrepâncias
 
 ![ctt3](https://github.com/user-attachments/assets/b43d6289-b714-4f4f-a0a6-5f3e5bdc4ba2)
 
-
 Conexão com base de dados
+
+![ctt4](https://github.com/user-attachments/assets/4cb5d441-114d-4921-b0a4-aad4803164bc)
+
 
 ## Prototipação
 [Apresentação1.pptx](https://github.com/user-attachments/files/22627512/Apresentacao1.pptx)

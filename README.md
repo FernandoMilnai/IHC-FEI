@@ -455,6 +455,9 @@ Pesquisa de dados
 
 Análise de discrepâncias
 
+![ctt3](https://github.com/user-attachments/assets/b43d6289-b714-4f4f-a0a6-5f3e5bdc4ba2)
+
+
 Conexão com base de dados
 
 ## Prototipação

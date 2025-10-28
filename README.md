@@ -476,6 +476,28 @@ Conexão com base de dados
  
 ## Coleta de dados
 
+### Formação:
+1. Grau de instrução
+2. Cursos realizados
+
+### Idiomas e jargões:
+1. Idiomas que consegue falar
+2. Idiomas preferidos
+3. Jargões e vocabulários próprios utilizados
+
+### Tecnologia:
+1. Familiaridade com SQL
+2. Familiaridade com ferramentas de dashboards
+3. Capacidade de processamento de hardware utilizado
+
+### Tarefas:
+1. Tempo gasto
+
+### Ferramentas de coleta:
+1. Entrevista
+2. Grupo de foco
+3. Estudo de campo
+
 ## Modelo de tarefas
 
 ## Design

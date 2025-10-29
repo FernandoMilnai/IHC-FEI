@@ -476,27 +476,57 @@ Conexão com base de dados
  
 ## Coleta de dados
 
-### Formação:
+### Formação
 1. Grau de instrução
 2. Cursos realizados
 
-### Idiomas e jargões:
+### Idiomas e jargões
 1. Idiomas que consegue falar
 2. Idiomas preferidos
 3. Jargões e vocabulários próprios utilizados
 
-### Tecnologia:
+### Tecnologia
 1. Familiaridade com SQL
 2. Familiaridade com ferramentas de dashboards
 3. Capacidade de processamento de hardware utilizado
 
-### Tarefas:
-1. Tempo gasto
+### Tarefas
+1. Tempo gasto com tarefas
+2. Cargo atual
+3. Consequências de erros
 
-### Ferramentas de coleta:
-1. Entrevista
-2. Grupo de foco
-3. Estudo de campo
+### Valores
+1. Se trabalha após o fim do expediente.
+2. Valor do treinamento
+3. Preferências com novas tecnologias
+
+## Quem será entrevistado
+1. Analistas de dados
+2. Engenheiros civis
+3. Policiais investigativos
+
+## Aspectos éticos
+O projeto levará em conta a Lei Geral de Proteção de Dados (LGPD) e aplicará o princípio da beneficência, visto que o programa lidará com muitos dados pessoais, logo confidenciais.
+
+## Ferramentas de coleta
+### Entrevista
+Seria realizada uma entrevista com as perguntas acima.
+
+### Grupo de foco
+Uniríamos um pequeno grupo de possíveis clientes e iniciaríamos um debate com algumas perguntas como:
+- Quanto tempo os participantes gastam em tarefas
+- Quanto tempo os participantes gostariam de gastar nestas mesmas tarefas
+- O quão complexas são as tarefas realizadas pelos participantes
+- Quais ferramentas os participantes costumam utilizar
+- Quais requisitos presentes em tais ferramentas os participantes consideram essenciais
+
+### Estudo de campo
+Seriam feitas visitas a escritórios, onde acompanharíamos o dia-a-dia dos funcionários e anotaríamos dados como:
+- Número de funcionários
+- Tempo de demora para conclusão de tarefas
+- Quantidade de dados recebidos e enviados diariamente
+- Jargões e vocabulários próprios
+- Cargos dos funcionários
 
 ## Modelo de tarefas
 

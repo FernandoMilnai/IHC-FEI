@@ -565,12 +565,13 @@ Quantitativo
     
 | Metas | Porcentagem | Justificativa |
 | ----- | :---- | :---- |
-| Taxa de erro | 1% | O programa deve entregar resultados coerentes e corretos ao usuário visto que os dados podem ser usados para influenciar nas tomadas de decisões. |
-| Adequação ao contexto | 20% | O programa deve ser coerente com os jargões e nomenclaturas para maior familiaridade com o usuário. |
-| Feedback e controle | 30% | O programa deve sempre informar o usuário quando uma alteração é feita para que o usuário perceba quando e onde as alterações foram realizadas. |
-| Facilidade de aprendizado | 50% | O programa deve ser intuitivo ao ver do usuário para que este não precise perder muito tempo aprendendo a utilizar a plataforma. |
-| Previsibilidade | 80% | O usuário deve sempre saber como o programa entregará os resultados pois assim ele saberá como e onde os dados estarão ao realizar uma busca. |
-| Eficiência | 100% | O programa deve realizar as tarefas sem gastar tempo ou recursos de forma excessiva para que o usuário não tenha que arcar com hardwares superiores ou tempos de espera muito longos. |
+| Adequação ao contexto | 5% | Apesar de tornar o programa mais atraente, o programa por si só já é adaptado para o contexto em que se encontra. |
+| Feedback e controle | 10% | Não há muitas respostas ou alterações presentes no programa, porém ainda existem em caso de criação de mapas ou em querries SQL. |
+| Facilidade de aprendizado | 10% | O usuário já é familiarizado com programas semelhantes a este, portanto já se encontra em uma posição avançada na curva de aprendizado. |
+| Previsibilidade | 15% | A organização dos dados visa reduzir a chance de erros humanos quanto à obtenção de dados. |
+| Taxa de erro | 20% | O programa deve entregar resultados coerentes e corretos ao usuário visto que os dados podem ser usados para influenciar nas tomadas de decisões. |
+| Eficiência | 40% | O programa deve rodar em tempo real e retornar muitas informações de forma quase instantânea, gastando também o mínimo necessário de recursos, por isso deve possuir maior atenção. |
+|**Total**|**100%**||
 
 ## 9. Modelo Conceitual
 ## 10. MOLIC

@@ -554,21 +554,23 @@ eficácia, eficiência e satisfação
 do usuário
 
 Qualitativo
-
-    
-
+- Estética
+- Previsibilidade
+- Feedback e controle
 
 Quantitativo
+- Eficiência
+- Taxa de erro
+- Facilidade de aprendizado
     
 | Metas | Porcentagem | Justificativa |
 | ----- | :---- | :---- |
-| Facilidade de … |  |  |
-|  |  |  |
-|  |  |  |
-|  | 1% |  |
-|  | 20% |  |
-| **Total** | **100%** |  |
-
+| Taxa de erro | 1% | O programa deve entregar resultados coerentes e corretos ao usuário visto que os dados podem ser usados para influenciar nas tomadas de decisões. |
+| Adequação ao contexto | 20% | O programa deve ser coerente com os jargões e nomenclaturas para maior familiaridade com o usuário. |
+| Feedback e controle | 30% | O programa deve sempre informar o usuário quando uma alteração é feita para que o usuário perceba quando e onde as alterações foram realizadas. |
+| Facilidade de aprendizado | 50% | O programa deve ser intuitivo ao ver do usuário para que este não precise perder muito tempo aprendendo a utilizar a plataforma. |
+| Previsibilidade | 80% | O usuário deve sempre saber como o programa entregará os resultados pois assim ele saberá como e onde os dados estarão ao realizar uma busca. |
+| Eficiência | 100% | O programa deve realizar as tarefas sem gastar tempo ou recursos de forma excessiva para que o usuário não tenha que arcar com hardwares superiores ou tempos de espera muito longos. |
 
 ## 9. Modelo Conceitual
 ## 10. MOLIC

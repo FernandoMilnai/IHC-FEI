@@ -134,7 +134,7 @@ Os usuários valorizam ferramentas com **experiência amigável**, **baixo tempo
 - Garantir que os relatórios estejam alinhados com a LGPD, mantendo privacidade e segurança dos dados pessoais.
 
 
-### Personas
+### 3. Personas
 
 - Descreva as personas que irão interagir com a aplicação ou produto. Deixe claro suas principais caracteristicas e contextos sociais, econômicos e culturais.
 - Quais informações sobre o usuário o serviço ou poduto deve guardar?
@@ -266,7 +266,7 @@ Pessoa Secundária: Carlos Alberto de Nobrega Carlos
   - Existe plataforma diferente quanto ao serviço, mas que atenda esse mercado? Se sim: Quais os pontos positivos? Quais os pontos negativos?
  -->
 
-## Cenário de Análise/Problema
+## 4. Cenário de Análise/Problema
 
 Cenário Roberto Carlos:
 - Cenário
@@ -302,7 +302,7 @@ Cenário Erasmo Carlos:
 - Refinamento do cenário
   - Erasmo Carlos, 32 anos, Engenheiro civil da Secretaria Municipal de São Paulo[8][9] e está trabalhando principalmente em projetos de mobilidade urbana, envolvendo as instalações públicas da cidade de São Paulo[1]. Entre estes projetos, Erasmo se encontra com a missão de propor a expansão da malha metroviária[2] até o próximo mês[6], e para isso, ele precisa de dados técnicos e sociais como fluxo de passageiros, horários de pico e regiões de maior movimento[3]. Apesar de atualmente conseguir tais dados por relatórios de passagem das catracas e câmeras de segurança das vias metroviárias[7][10], Erasmo se encontra estressado[4] por precisar gastar de 3 a 4 horas apenas para realizar tais pesquisas[5], visto que existem poucas ferramentas capazes de auxiliá-lo na coleta de dados.
  
-## Análise de tarefas
+## 5. Análise de tarefas
 
 ### Funcionalidades:
 - Criação de grafo do ambiente
@@ -462,7 +462,7 @@ Conexão com base de dados
 ![ctt4](https://github.com/user-attachments/assets/4cb5d441-114d-4921-b0a4-aad4803164bc)
 
 
-## Prototipação
+## 6. Prototipação
 [Apresentação1.pptx](https://github.com/user-attachments/files/22627512/Apresentacao1.pptx)
 <img width="1280" height="720" alt="Slide2" src="https://github.com/user-attachments/assets/5514a0bc-e227-4eaf-80bb-3cc9ed603d23" />
 <img width="1280" height="720" alt="Slide3" src="https://github.com/user-attachments/assets/b6bb33de-8035-4f59-a49e-59fb47ee8225" />
@@ -474,7 +474,7 @@ Conexão com base de dados
 
 
  
-## Coleta de dados
+## 7. Coleta de dados
 
 ### Formação
 1. Grau de instrução
@@ -544,6 +544,14 @@ Seriam feitas visitas a escritórios, onde acompanharíamos o dia-a-dia dos func
 
 ### Prtotipação em alto nível (React)
 #### Avaliação heurística
+
+## 8. Ciclo de vida da engenharia de usabilidade
+## 9. Modelo Conceitual
+## 10. MOLIC
+## 11. FIGMA
+## 12. Planejamento da Avaliação
+## 13. Avaliação de IHC através de Inspeção Heurística
+## 14. Avaliação de Usabilidade baseado em Observação do Usuário
 
 [^1]: Fonte: Adaptado de <https://hazeshift.com.br/mapa-de-empatia/>
 

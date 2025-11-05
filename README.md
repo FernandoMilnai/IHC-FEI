@@ -575,6 +575,9 @@ Quantitativo
 
 ## 9. Modelo Conceitual
 ## 10. MOLIC
+### Diagrama de interação
+[Uploading Diagrama IHC 1.drawio…]()
+
 ## 11. FIGMA
 ## 12. Planejamento da Avaliação
 ## 13. Avaliação de IHC através de Inspeção Heurística

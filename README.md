@@ -576,7 +576,7 @@ Quantitativo
 ## 9. Modelo Conceitual
 ## 10. MOLIC
 ### Diagrama de interação
-[Uploading Diagrama IHC 1.drawio…]()
+<img width="990" height="480" alt="Diagrama IHC 1 drawio" src="https://github.com/user-attachments/assets/43775cae-2082-4a30-9b4a-460ad15f471e" />
 
 ## 11. FIGMA
 ## 12. Planejamento da Avaliação

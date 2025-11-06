@@ -576,7 +576,14 @@ Quantitativo
 ## 9. Modelo Conceitual
 ## 10. MOLIC
 ### Diagrama de interação
-<img width="990" height="480" alt="Diagrama IHC 1 drawio" src="https://github.com/user-attachments/assets/43775cae-2082-4a30-9b4a-460ad15f471e" />
+<img width="761" height="480" alt="Diagrama IHC 1 drawio" src="https://github.com/user-attachments/assets/4cb2f484-3477-479c-8769-fbf3ae297f4c" />
+
+
+### Diagrama de processos
+<img width="989" height="621" alt="Diagrama IHC 2 drawio" src="https://github.com/user-attachments/assets/290bc58a-fc42-4e6d-aea8-07f27ea1e99c" />
+
+### Diagrama de interface
+<img width="2097" height="5730" alt="Diagrama IHC 3 drawio" src="https://github.com/user-attachments/assets/41996650-8cc6-4352-9d4a-2961d2595ee3" />
 
 ## 11. FIGMA
 ## 12. Planejamento da Avaliação

@@ -574,6 +574,17 @@ Quantitativo
 |**Total**|**100%**||
 
 ## 9. Modelo Conceitual
+
+### Cenário Interação
+
+Roberto inicia seu dia **abrindo o dashboard de análise de câmeras**, diretamente no computador da sala de monitoramento da CPTM. Ao fazer login, **ele é recebido por uma visão geral organizada**, que mostra de forma clara as estações que acompanha, com **gráficos atualizados automaticamente sobre fluxo de passageiros**. Roberto percebe que, em uma estação da Linha 11, o volume de passageiros está acima do esperado para aquele horário.
+
+Ele então **seleciona a estação no painel lateral**, aplicando **filtros intuitivos por intervalo de tempo e áreas específicas da estação**. O dashboard **reorganiza automaticamente as informações**, exibindo **um gráfico de fluxo horário**, **um mapa de calor indicando locais de maior concentração** e **um grafo que representa as rotas mais percorridas**.
+
+Com poucos cliques, Roberto acessa **a função de reconstrução de trajetos**, onde **o sistema identifica padrões de movimentação com base nas câmeras**, destacando automaticamente rotas com comportamento atípico. O dashboard aponta **uma desaceleração de fluxo** em uma das passagens, indicando possível obstrução ou evento incomum. Roberto interpreta rapidamente que isso pode estar relacionado à manutenção de uma escada rolante.
+
+Ele então utiliza **a ferramenta de exportação automática do sistema**, que **gera um relatório já estruturado**, com **gráficos, indicadores e resumo analítico**, pronto para envio ao gestor. **A tarefa, que antes levava 2 a 3 horas de retrabalho manual, agora é concluída em poucos minutos**. Roberto sente que **agora consegue dedicar seu tempo à análise estratégica**, ao invés de perder horas reorganizando planilhas.
+
 ## 10. MOLIC
 ### Diagrama de interação
 <img width="761" height="480" alt="Diagrama IHC 1 drawio" src="https://github.com/user-attachments/assets/4cb2f484-3477-479c-8769-fbf3ae297f4c" />

@@ -585,6 +585,21 @@ Com poucos cliques, Roberto acessa **a função de reconstrução de trajetos**,
 
 Ele então utiliza **a ferramenta de exportação automática do sistema**, que **gera um relatório já estruturado**, com **gráficos, indicadores e resumo analítico**, pronto para envio ao gestor. **A tarefa, que antes levava 2 a 3 horas de retrabalho manual, agora é concluída em poucos minutos**. Roberto sente que **agora consegue dedicar seu tempo à análise estratégica**, ao invés de perder horas reorganizando planilhas.
 
+### Engenharia simbiótica
+
+O sistema processa e organiza grandes volumes de dados provenientes das câmeras, gerando visualizações automáticas de trajetos, fluxos e discrepâncias. Entretanto, é o analista — com sua experiência e raciocínio crítico — quem interpreta os padrões, valida as anomalias e toma decisões baseadas nas evidências apresentadas.
+Dessa forma, o software não substitui o usuário, mas amplifica sua capacidade cognitiva, permitindo análises mais rápidas, precisas e contextualizadas.
+
+A simbiose se consolida quando o sistema aprende com as interações anteriores, otimizando buscas e sugerindo filtros com base no histórico de uso. Esse ciclo contínuo de retroalimentação entre humano e máquina é o que caracteriza o caráter simbiótico da aplicação: o analista aprimora o sistema por meio de suas decisões, e o sistema, por sua vez, potencializa o trabalho humano com processamento e visualização avançada de dados.
+
+### Design centrado na comunicação
+
+No sistema de mapeamento, a comunicação é estabelecida por meio de gráficos, ícones, cores e legendas que traduzem os dados complexos em informações compreensíveis e acionáveis. O design privilegia a leitura rápida, utilizando contrastes adequados e hierarquia visual para guiar a atenção do usuário aos pontos críticos, como áreas de fluxo anormal ou trajetos interrompidos.
+
+Além disso, o sistema adota mensagens claras e consistentes, evitando jargões técnicos desnecessários e fornecendo feedback imediato em cada ação realizada — seja na execução de uma consulta, no carregamento de dados ou na exportação de relatórios. Essa comunicação contínua e transparente promove confiança no uso e reduz a necessidade de treinamento prévio.
+
+Assim, o Design Centrado na Comunicação assegura que a interação ocorra de forma natural e significativa, tornando o sistema uma ferramenta eficiente tanto do ponto de vista técnico quanto comunicacional.
+
 ## 10. MOLIC
 ### Diagrama de interação
 <img width="761" height="480" alt="Diagrama IHC 1 drawio" src="https://github.com/user-attachments/assets/4cb2f484-3477-479c-8769-fbf3ae297f4c" />

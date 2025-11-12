@@ -585,16 +585,9 @@ Com poucos cliques, Roberto acessa **a função de reconstrução de trajetos**,
 
 Ele então utiliza **a ferramenta de exportação automática do sistema**, que **gera um relatório já estruturado**, com **gráficos, indicadores e resumo analítico**, pronto para envio ao gestor. **A tarefa, que antes levava 2 a 3 horas de retrabalho manual, agora é concluída em poucos minutos**. Roberto sente que **agora consegue dedicar seu tempo à análise estratégica**, ao invés de perder horas reorganizando planilhas.
 
-### Engenharia simbiótica
-
-O sistema processa e organiza grandes volumes de dados provenientes das câmeras, gerando visualizações automáticas de trajetos, fluxos e discrepâncias. Entretanto, é o analista — com sua experiência e raciocínio crítico — quem interpreta os padrões, valida as anomalias e toma decisões baseadas nas evidências apresentadas.
-Dessa forma, o software não substitui o usuário, mas amplifica sua capacidade cognitiva, permitindo análises mais rápidas, precisas e contextualizadas.
-
-A simbiose se consolida quando o sistema aprende com as interações anteriores, otimizando buscas e sugerindo filtros com base no histórico de uso. Esse ciclo contínuo de retroalimentação entre humano e máquina é o que caracteriza o caráter simbiótico da aplicação: o analista aprimora o sistema por meio de suas decisões, e o sistema, por sua vez, potencializa o trabalho humano com processamento e visualização avançada de dados.
-
 ### Design centrado na comunicação
 
-**Nome do Cenário: Análise de Fluxo e Reconstrução de Trajetos**
+**Nome do Cenário:** Análise de Fluxo e Reconstrução de Trajetos
 | tópico > subtópico (diálogo)                   | falas e signos                                                                                                                                                                                                                                                                                          |
 | :--------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Analisar fluxo de passageiros nas estações** | **U:** Preciso verificar o fluxo de passageiros na Estação Sé durante o período da manhã.<br>**D:** Certo. Informe o intervalo de tempo e a data desejada.                                                                                                                                              |
@@ -605,7 +598,7 @@ A simbiose se consolida quando o sistema aprende com as interações anteriores,
 | **Encerrar sessão**                            | **U:** Tudo certo. Pode encerrar a análise.<br>**D:** Sessão finalizada. Obrigado por utilizar o sistema de mapeamento de fluxos.                                                                                                                                                                      |  |
 ### Mapa de Objetivos
 
-**Objetivo Geral do Usuário (Roberto Carlos): Analisar e compreender o fluxo de passageiros nas estações do metrô de São Paulo, identificando discrepâncias e gerando relatórios automatizados para otimização operacional.**
+**Objetivo Geral do Usuário (Roberto Carlos):** Analisar e compreender o fluxo de passageiros nas estações do metrô de São Paulo, identificando discrepâncias e gerando relatórios automatizados para otimização operacional.
 
 **Objetivos de Alto Nível**
 

@@ -594,11 +594,130 @@ A simbiose se consolida quando o sistema aprende com as interações anteriores,
 
 ### Design centrado na comunicação
 
-No sistema de mapeamento, a comunicação é estabelecida por meio de gráficos, ícones, cores e legendas que traduzem os dados complexos em informações compreensíveis e acionáveis. O design privilegia a leitura rápida, utilizando contrastes adequados e hierarquia visual para guiar a atenção do usuário aos pontos críticos, como áreas de fluxo anormal ou trajetos interrompidos.
+**Nome do Cenário: Análise de Fluxo e Reconstrução de Trajetos**
+| tópico > subtópico (diálogo)                   | falas e signos                                                                                                                                                                                                                                                                                          |
+| :--------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Analisar fluxo de passageiros nas estações** | **U:** Preciso verificar o fluxo de passageiros na Estação Sé durante o período da manhã.<br>**D:** Certo. Informe o intervalo de tempo e a data desejada.                                                                                                                                              |
+| > **Selecionar dados de análise**              | **U:** Quero ver os dados entre 06h00 e 10h00 do dia 20 de maio.<br>**D:** Perfeito, aplicando filtros e carregando dados correspondentes.                                                                                                                                                              |
+| **Visualizar resultados**                      | **D:** Aqui estão os gráficos de movimentação, mapa de calor e número total de passageiros. Áreas em vermelho indicam maior concentração.<br>**U:** As aglomerações parecem intensas entre 7h e 8h. Pode detalhar esse período?<br>**D:** Exibindo gráfico minuto a minuto do fluxo de entrada e saída. |
+| **Identificar discrepâncias**                  | **U:** Há uma falha no trajeto da câmera 12. Pode verificar?<br>**D:** Detectei uma inconsistência de leitura entre 7h12 e 7h18. Deseja reconstruir o trajeto automaticamente?<br>**U:** Sim, reconstrua o trajeto.<br>**D:** Trajeto reconstruído com sucesso. O fluxo foi atualizado no grafo.        |
+| **Gerar relatório final**                      | **U:** Agora quero exportar o relatório com as informações completas.<br>**D:** Deseja incluir as discrepâncias corrigidas no relatório?<br>**U:** Sim, inclua tudo.<br>**D:** Relatório gerado e salvo automaticamente na pasta “Relatórios CPTM – Maio”.                                              |
+| **Encerrar sessão**                            | **U:** Tudo certo. Pode encerrar a análise.<br>**D:** Sessão finalizada. Obrigado por utilizar o sistema de mapeamento de fluxos.                                                                                                                                                                      |  |
+### Mapa de Objetivos
 
-Além disso, o sistema adota mensagens claras e consistentes, evitando jargões técnicos desnecessários e fornecendo feedback imediato em cada ação realizada — seja na execução de uma consulta, no carregamento de dados ou na exportação de relatórios. Essa comunicação contínua e transparente promove confiança no uso e reduz a necessidade de treinamento prévio.
+**Objetivo Geral do Usuário (Roberto Carlos): Analisar e compreender o fluxo de passageiros nas estações do metrô de São Paulo, identificando discrepâncias e gerando relatórios automatizados para otimização operacional.**
 
-Assim, o Design Centrado na Comunicação assegura que a interação ocorra de forma natural e significativa, tornando o sistema uma ferramenta eficiente tanto do ponto de vista técnico quanto comunicacional.
+**Objetivos de Alto Nível**
+
+| **Código** | **Objetivo**                                 | **Descrição**                                                                                         |
+| :--------- | :------------------------------------------- | :---------------------------------------------------------------------------------------------------- |
+| O1         | Monitorar fluxo de passageiros               | Observar em tempo real o volume de pessoas nas estações, com base nos dados capturados pelas câmeras. |
+| O2         | Identificar anomalias e discrepâncias        | Detectar inconsistências ou falhas nos trajetos gerados automaticamente.                              |
+| O3         | Reconstruir trajetos inconsistentes          | Corrigir automaticamente os trajetos incorretos por meio do sistema.                                  |
+| O4         | Gerar relatórios analíticos                  | Criar relatórios organizados contendo gráficos, fluxos e informações consolidadas.                    |
+| O5         | Exportar e compartilhar resultados           | Salvar e enviar relatórios gerados para gestores ou equipes da CPTM.                                  |
+| O6         | Garantir confiabilidade e clareza na análise | Minimizar erros e rupturas comunicativas, oferecendo visualizações claras e feedback imediato.        |
+
+**Subobjetivos Operacionais**
+
+| **Código** | **Objetivo Relacionado** | **Descrição**                                                                          |
+| :--------- | :----------------------- | :------------------------------------------------------------------------------------- |
+| SO1        | O1                       | Aplicar filtros de tempo, estação e área para refinar a análise de fluxo.              |
+| SO2        | O2                       | Utilizar alertas visuais (cores, ícones, legendas) para identificar picos e anomalias. |
+| SO3        | O3                       | Acionar a função de reconstrução automática do trajeto em casos de falha.              |
+| SO4        | O4                       | Selecionar opções de relatório e definir escopo de dados exportáveis.                  |
+| SO5        | O5                       | Confirmar exportação e salvar o relatório em diretório padrão do sistema.              |
+| SO6        | O6                       | Receber feedbacks e mensagens de status (erro, sucesso, carregamento).                 |
+
+**Objetivos do Sistema (Designer/Preposto)**
+
+| **Código** | **Função do Sistema**                   | **Mensagem/Comunicação ao Usuário**                                    |
+| :--------- | :-------------------------------------- | :--------------------------------------------------------------------- |
+| S1         | Fornecer feedback contínuo              | “Dados atualizados com sucesso.” / “Filtro aplicado.”                  |
+| S2         | Alertar sobre inconsistências           | “Fluxo interrompido na câmera 12. Deseja reconstruir o trajeto?”       |
+| S3         | Confirmar ações críticas                | “Deseja incluir discrepâncias corrigidas no relatório?”                |
+| S4         | Manter coerência visual e semântica     | Ícones e cores padronizados em todas as telas.                         |
+| S5         | Apoiar prevenção e recuperação de erros | Mensagens de ajuda e prevenção ativa, evitando rupturas comunicativas. |
+
+**Diagrama de Consolidação**
+
+```mermaid
+graph TD
+    %% === CAMADA 1: USUÁRIO ===
+    A[Usuário: Roberto Carlos]
+
+    A1[O1: Monitorar fluxo de passageiros]
+    A2[O2: Identificar anomalias e discrepâncias]
+    A3[O3: Reconstruir trajetos inconsistentes]
+    A4[O4: Gerar relatórios analíticos]
+    A5[O5: Exportar e compartilhar resultados]
+    A6[O6: Garantir confiabilidade e clareza]
+
+    A --> A1
+    A --> A2
+    A --> A3
+    A --> A4
+    A --> A5
+    A --> A6
+
+    %% === CAMADA 2: PREPOSTO DO SISTEMA ===
+    B[Preposto do Sistema]
+
+    S1[S1: Exibir gráficos atualizados]
+    S2[S2: Alertar sobre inconsistências]
+    S3[S3: Confirmar correções no grafo]
+    S4[S4: Gerar relatório consolidado]
+    S5[S5: Notificar exportação concluída]
+    S6[S6: Fornecer feedback contínuo]
+
+    B --> S1
+    B --> S2
+    B --> S3
+    B --> S4
+    B --> S5
+    B --> S6
+
+    %% === CAMADA 3: DESIGNER ===
+    C[Designer - Intenção Projetual]
+    C1[Promover clareza visual]
+    C2[Minimizar rupturas comunicativas]
+    C3[Garantir confiança e coerência]
+
+    C --> C1
+    C --> C2
+    C --> C3
+
+    %% === RELAÇÕES ENTRE CAMADAS ===
+    A1 --> S1
+    A2 --> S2
+    A3 --> S3
+    A4 --> S4
+    A5 --> S5
+    A6 --> S6
+
+    S1 --> C1
+    S2 --> C2
+    S3 --> C2
+    S4 --> C1
+    S5 --> C3
+    S6 --> C3
+```
+
+### Esquema conceitual de signos
+
+| **Categoria (C)**            | **Signo**                  | **Origem** | **Tipo de Conteúdo** | **Restrição sobre Conteúdo**            | **Valor Default** | **Prevenção**                                                     | **Recuperação**                                             | **Observações**                                                                   |
+| :--------------------------- | :------------------------- | :--------- | :------------------- | :-------------------------------------- | :---------------- | :---------------------------------------------------------------- | :---------------------------------------------------------- | :-------------------------------------------------------------------------------- |
+| **Credenciais de Acesso**    | usuário                    | domínio    | texto                | não pode ser nulo                       | —                 | PP: campo obrigatório                                             | RA: mensagem “Preencha o campo de usuário.”                 | Campo de login com placeholder e ícone de pessoa.                                 |
+| **Credenciais de Acesso**    | senha                      | domínio    | texto                | não pode ser nulo                       | —                 | PP: campo obrigatório                                             | RA: mensagem “Senha incorreta. Tente novamente.”            | Ocultação automática dos caracteres digitados.                                    |
+| **Filtros de Análise**       | estação                    | domínio    | texto                | deve existir no banco de dados          | —                 | PA: impede seleção inválida                                       | RA: “Estação não encontrada.”                               | Combobox com lista de estações disponíveis.                                       |
+| **Filtros de Análise**       | período                    | domínio    | data/hora            | deve estar no intervalo permitido       | data atual        | AL: alerta ao selecionar período vazio                            | RA: mensagem “Intervalo de tempo inválido.”                 | Campos de data e hora com formatação automática (dd/mm/aaaa hh:mm).               |
+| **Mapeamento de Fluxo**      | grafo de trajetos          | derivado   | objeto visual        | depende da base de dados carregada      | —                 | PA: bloqueia exibição sem dados                                   | RA: “Erro ao gerar grafo. Tente recarregar.”                | Gera visualização interativa com nós e arestas representando câmeras e trajetos.  |
+| **Análise de Discrepâncias** | relatório de discrepâncias | derivado   | tabela e gráfico     | não pode conter dados nulos             | —                 | AL: alerta ao detectar falhas                                     | RA: “Falha de leitura. Deseja reconstruir automaticamente?” | Tabela com coloração condicional destacando inconsistências.                      |
+| **Reconstrução de Trajetos** | botão “Reconstruir”        | domínio    | ação (evento)        | só pode ser clicado após erro detectado | desabilitado      | PA: bloqueia uso indevido                                         | RA: “Reconstrução concluída.”                               | Ícone de recarregar com feedback visual de progresso.                             |
+| **Exportação de Relatório**  | botão “Exportar”           | domínio    | ação (evento)        | requer relatório carregado              | desabilitado      | PA: impede exportação sem dados                                   | RA: “Arquivo salvo com sucesso.”                            | Gera arquivo CSV em diretório padrão com feedback de status.                      |
+| **Feedback e Alertas**       | mensagens de status        | derivado   | texto                | deve ser legível e contextual           | —                 | AL: solicita confirmação                                          | CE: orienta usuário sobre solução externa                   | Mensagens como “Conexão perdida. Verifique a rede.” ou “Exportação bem-sucedida.” |
+| **Visualização Gráfica**     | mapa de calor              | derivado   | gráfico visual       | depende dos filtros aplicados           | —                 | PP: instruções iniciais (“Selecione filtros antes de visualizar”) | RA: “Nenhum dado encontrado neste intervalo.”               | Representa intensidade de fluxo por cor.                                          |
+
 
 ## 10. MOLIC
 ### Diagrama de interação

@@ -597,6 +597,10 @@ Ele então utiliza **a ferramenta de exportação automática do sistema**, que 
 <img width="2097" height="5730" alt="Diagrama IHC 3 drawio" src="https://github.com/user-attachments/assets/41996650-8cc6-4352-9d4a-2961d2595ee3" />
 
 ## 11. FIGMA
+### Layout Página inicial:
+<img width="1919" height="1079" alt="Layout TCC" src="https://github.com/user-attachments/assets/ff51c85d-5be8-4cfa-8b66-62074bf71903" />
+
+
 ## 12. Planejamento da Avaliação
 ### 1. Introdução
 A avaliação de Interação tem como objetivo identificar problemas de usabilidade e garantir a qualidade de uso de uma solução interativa. É elaborado o planejamento da avaliação, definindo objetivos, métodos, escopo, participantes e instrumentos a serem utilizados

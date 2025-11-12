@@ -598,8 +598,103 @@ Ele então utiliza **a ferramenta de exportação automática do sistema**, que 
 
 ## 11. FIGMA
 ## 12. Planejamento da Avaliação
+### 1. Introdução
+A avaliação de Interação tem como objetivo identificar problemas de usabilidade e garantir a qualidade de uso de uma solução interativa. É elaborado o planejamento da avaliação, definindo objetivos, métodos, escopo, participantes e instrumentos a serem utilizados
+
+### 2. Objetivo da Avaliação
+Verificar se a interface do sistema permite que seus usuários (analistas de dados, engenheiros e investigadores) executem as tarefas esperadas de forma eficiente, precisa e satisfatória, avaliando aspectos como visibilidade do status, consistência, feedback e facilidade de aprendizado.
+
+### 3. Questões de Investigação
+- O usuário consegue localizar e interpretar os dados exibidos no dashboard sem dificuldade?
+- O sistema fornece feedback claro sobre ações e resultados de busca?
+- As funcionalidades de exportação e análise de discrepâncias são compreensíveis?
+- Os ícones, botões e menus estão consistentes entre as diferentes telas?
+- A interface comunica corretamente erros e mensagens de confirmação?
+
+### 4. Escopo da Avaliação
+A avaliação abrangerá as principais telas do sistema:
+- Tela inicial e painel de login;
+- Tela de visualização de grafo e fluxos;
+- Tela de busca e filtragem de dados;
+- Tela de exportação e relatórios.
+Essas interfaces são críticas para a execução das tarefas centrais do sistema e influenciam diretamente a experiência do usuário.
+
+### 5. Método de Avaliação
+Será aplicada a avaliação heurística, conforme as 10 heurísticas de Nielsen (1994). O método foi selecionado por permitir a inspeção especializada das interfaces sem a necessidade de envolver usuários finais, identificando inconsistências e problemas de design com base em princípios reconhecidos de usabilidade.
+
+### 6. Perfis dos avaliadores
+A avaliação será conduzida por três avaliadores com conhecimento prévio em design de interfaces e usabilidade, familiarizados com sistemas de análise de dados e visualização gráfica. O objetivo é garantir uma análise crítica alinhada ao contexto técnico do projeto.
+
+### 7. Aspectos Éticos e Logísticos
+A avaliação respeitará a Lei Geral de Proteção de Dados (LGPD), assegurando que nenhuma informação sensível ou identificável seja utilizada nos testes. Os avaliadores realizarão o processo em ambiente controlado, utilizando o protótipo interativo desenvolvido no Figma, acompanhado de um roteiro de tarefas e formulários para registro dos achados
+
+### 8. Etapas da Avaliação
+Definição do escopo e tarefas a serem avaliadas
+Execução da inspeção individual por avaliadores
+Registro dos problemas observados e das heurísticas violadas
+Consolidação dos resultados em um único relatório
+Proposição de melhorias na interface
+
 ## 13. Avaliação de IHC através de Inspeção Heurística
+### Procedimento
+Os avaliadores analisaram o protótipo funcional do sistema com base nas 10 heurísticas de Nielsen, seguindo um roteiro que incluía:
+Navegação entre as telas do dashboard e busca de dados;
+Criação e análise de grafos
+Exportação de relatórios
+Resolução de discrepâncias simuladas.
+Cada avaliador registrou problemas observados, descrevendo a heurística violada e atribuindo um grau de severidade entre 0 (não é problema) e 4 (problema crítico).
+
+### Resultados Observados
+Os principais problemas identificados foram:
+Ausência de feedback visual ao processar grandes volumes de dados
+Inconsistência terminológica entre campos de busca (“hash”, “identificador” e “usuário”)
+Falta de mensagens de confirmação ao exportar relatórios
+Layout denso em telas com muitos botões de controle simultâneos
+
+### Análise
+De modo geral, o sistema apresentou boa estrutura lógica e coerência visual, com fluxos previsíveis e consistentes. Entretanto, os avaliadores destacaram a necessidade de reforçar elementos de visibilidade, feedback e padronização textual para reduzir erros e melhorar a experiência de uso.
+
+### Recomendações
+Implementar barras ou ícones de progresso em operações demoradas;
+Padronizar nomenclaturas e ícones em todas as telas;
+Inserir confirmações visuais e sonoras em ações críticas (exportar, excluir, atualizar);
+Reorganizar botões de ação em grupos funcionais para evitar sobrecarga visual.
+
+### Conclusão
+A avaliação heurística demonstrou que o sistema está bem estruturado e atende aos princípios básicos de usabilidade, mas requer ajustes em comunicação de estado e consistência visual. As melhorias propostas serão implementadas no próximo ciclo de prototipação.
+
+
 ## 14. Avaliação de Usabilidade baseado em Observação do Usuário
+### Metodologia
+A avaliação foi realizada com três usuários representativos das personas definidas anteriormente:
+Roberto Carlos, analista de dados da CPTM
+Erasmo Carlos, engenheiro civil da Secretaria de Mobilidade Urbana
+Fiuk Carlos, investigador da Polícia Civil.
+Cada participante recebeu um conjunto de tarefas a executar no protótipo Figma:
+Localizar e abrir relatórios de fluxo de uma estação específica
+Aplicar filtros de horário e data
+Exportar o relatório em formato CSV
+Verificar discrepâncias e rotas atípicas em um grafo.
+Durante as sessões, foram registradas as ações, o tempo de execução, os erros cometidos e comentários espontâneos. Após a observação, aplicou-se um questionário de satisfação (escala Likert de 1 a 5).
+
+### Resultados
+Os participantes completaram as tarefas principais com sucesso, com tempo médio de 2 minutos e 10 segundos por atividade.
+Foram observadas as seguintes dificuldades:
+Dúvida inicial na distinção entre “Relatório” e “Análise de Fluxo”;
+Necessidade de feedback mais evidente ao aplicar filtros;
+Dificuldade leve para identificar a função de exportação.
+Apesar disso, os usuários avaliaram positivamente a clareza dos gráficos e a disposição dos dados. A média de satisfação geral foi 4,3/5.
+
+### Interpretação
+Os resultados indicam boa eficiência e previsibilidade da navegação, mas apontam que a visibilidade de estado e o feedback precisam ser reforçados. A curva de aprendizado é curta, e o sistema foi considerado intuitivo pelos usuários mais técnicos. Pequenas melhorias podem reduzir significativamente o tempo de conclusão das tarefas.
+
+### Conclusão
+O sistema obteve bom desempenho em termos de eficácia, eficiência e satisfação, atendendo à maioria das metas de usabilidade definidas. Recomenda-se:
+Adicionar feedback visual (animações ou mensagens) ao aplicar filtros
+Unificar terminologias dos botões
+Aumentar o contraste de elementos interativos para melhor acessibilidade.
+Essas correções devem ser implementadas antes da próxima rodada de testes, consolidando o sistema como uma ferramenta robusta e confiável para análise de fluxo em ambientes monitorados.
+
 
 [^1]: Fonte: Adaptado de <https://hazeshift.com.br/mapa-de-empatia/>
 

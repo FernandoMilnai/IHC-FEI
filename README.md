@@ -954,56 +954,42 @@ Avaliação heurística, definida por Nielsen e Molich (1994), é um método de 
 3) **RESULTADOS DO TESTE \[1 solução por equipe\]**
 
 **Avaliação de cada Tarefa (para cada usuário)**
-
+### Rômulo Canavesso:
 | Tarefa | Grau de Sucesso | Total de Erros cometidos | Tipos de Erros | Tempo Necessário | Grau de Satisfação |
 | ----- | ----- | ----- | ----- | ----- | ----- |
-| **1** | **Sucesso Parcial** | **2** | **Não completou a tarefa(1), (1) Compreensão** | **5 segundos** | **Confusão Moderada** |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
+| **Pesquisa de base de dados** | **Sucesso Parcial** | **1** | **Selecionou o botão de executar pesquisa SQL ao invés da pesquisa automática nçao obtendo resultados dos parâmetros definidos** | **5 segundos** | **Dúvida de iniciante** |
+| **Importar base de dados**| **Sucesso** | **0** | - | **10 segundos** | **Satisfeito** |
+| **Exportar base de dados** | **Sucesso** | **0** | - | **8 segundos** | **Satisfeito** |
+| **Consultar gráficos** | **Sucesso** | **0** | - | **2 segundos** | **Satisfeito** |
+| **Consultar "Dúvidas frequências"** | **Sucesso** | **0** | - | **1 segundo** | **Satisfeito** |
 
-**Links dos vídeos:**
+### Lucas Antunes:
+| Tarefa | Grau de Sucesso | Total de Erros cometidos | Tipos de Erros | Tempo Necessário | Grau de Satisfação |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| **Pesquisa de base de dados** | **Sucesso Parcial** | **0** | - | **5 segundos** | **Satisfeito** |
+| **Importar base de dados**| **Sucesso** | **0** | - | **10 segundos** | **Satisfeito** |
+| **Exportar base de dados** | **Sucesso** | **0** | - | **8 segundos** | **Satisfeito** |
+| **Consultar gráficos** | **Sucesso** | **0** | - | **2 segundos** | **Satisfeito** |
+| **Consultar "Dúvidas frequências"** | **Sucesso** | **0** | - | **2 segundo** | **Satisfeito** |
+
 
 **Respostas do Formulário do Usuário:**
+Rômulo Canavesso
+Idade: 22
+Experiência prévia: intermediária
+Familiaridade com sistemas de dashboard: baixa
+Expectativa inicial: dificuldade moderada
+Observação: demonstrou insegurança apenas na primeira tarefa
+
+Lucas Antunes
+Idade: 23
+Experiência prévia: alta
+Familiaridade com dashboards: elevada
+Expectativa inicial: facilidade
+Observação: navegação rápida e intuitiva
 
 **Conclusão da avaliação por observação do usuário:**
-
-
-
-### Metodologia
-A avaliação foi realizada com três usuários representativos das personas definidas anteriormente:
-Roberto Carlos, analista de dados da CPTM
-Erasmo Carlos, engenheiro civil da Secretaria de Mobilidade Urbana
-Fiuk Carlos, investigador da Polícia Civil.
-Cada participante recebeu um conjunto de tarefas a executar no protótipo Figma:
-Localizar e abrir relatórios de fluxo de uma estação específica
-Aplicar filtros de horário e data
-Exportar o relatório em formato CSV
-Verificar discrepâncias e rotas atípicas em um grafo.
-Durante as sessões, foram registradas as ações, o tempo de execução, os erros cometidos e comentários espontâneos. Após a observação, aplicou-se um questionário de satisfação (escala Likert de 1 a 5).
-
-### Resultados
-Os participantes completaram as tarefas principais com sucesso, com tempo médio de 2 minutos e 10 segundos por atividade.
-Foram observadas as seguintes dificuldades:
-Dúvida inicial na distinção entre “Relatório” e “Análise de Fluxo”;
-Necessidade de feedback mais evidente ao aplicar filtros;
-Dificuldade leve para identificar a função de exportação.
-Apesar disso, os usuários avaliaram positivamente a clareza dos gráficos e a disposição dos dados. A média de satisfação geral foi 4,3/5.
-
-### Interpretação
-Os resultados indicam boa eficiência e previsibilidade da navegação, mas apontam que a visibilidade de estado e o feedback precisam ser reforçados. A curva de aprendizado é curta, e o sistema foi considerado intuitivo pelos usuários mais técnicos. Pequenas melhorias podem reduzir significativamente o tempo de conclusão das tarefas.
-
-### Conclusão
-O sistema obteve bom desempenho em termos de eficácia, eficiência e satisfação, atendendo à maioria das metas de usabilidade definidas. Recomenda-se:
-Adicionar feedback visual (animações ou mensagens) ao aplicar filtros
-Unificar terminologias dos botões
-Aumentar o contraste de elementos interativos para melhor acessibilidade.
-Essas correções devem ser implementadas antes da próxima rodada de testes, consolidando o sistema como uma ferramenta robusta e confiável para análise de fluxo em ambientes monitorados.
-
+A avaliação indicou que o sistema apresenta boa usabilidade geral, com execução eficiente das tarefas por usuários com níveis diferentes de experiência. A única dificuldade recorrente ocorreu na tarefa de pesquisa de base de dados, especialmente relacionada à identificação do botão correto para pesquisa automática
 
 [^1]: Fonte: Adaptado de <https://hazeshift.com.br/mapa-de-empatia/>
 

@@ -777,84 +777,163 @@ Dez Heurísticas de Nielsen
 
 Avaliação heurística, definida por Nielsen e Molich (1994), é um método de avaliação de usabilidade onde um avaliador procura problemas de usabilidade numa interface com o usuário através da análise e interpretação de um conjunto de princípios ou heurísticas. Este método de avaliação é baseado no julgamento do avaliador.
 
-1\. Primeiramente, leia e analise as dez heurísticas (ver Tabela 1).
+# **Tabela 1 – Conjunto de heurísticas de Nielsen (1994)**
 
-**Tabela 1 \- Conjunto de heurísticas de Nielsen (1994)**
+| Nº | Heurística | Descrição |
+|----|------------|-----------|
+| 1 | Visibilidade do status do sistema | O sistema deve sempre manter os usuários informados sobre o que está acontecendo através de feedback apropriado, em tempo razoável. |
+| 2 | Compatibilidade entre sistema e mundo real | O sistema deve usar linguagem familiar ao usuário e seguir convenções do mundo real. |
+| 3 | Controle e liberdade para o usuário | O usuário deve ter uma “saída de emergência” clara, incluindo *undo* e *redo*. |
+| 4 | Consistência e padrões | A interface deve manter padrões claros; ações e elementos devem significar a mesma coisa sempre. |
+| 5 | Prevenção de erros | A interface deve evitar que erros ocorram. |
+| 6 | Reconhecimento em lugar de lembrança | A interface deve manter ações, objetos e opções visíveis, evitando que o usuário tenha que lembrar informações. |
+| 7 | Flexibilidade e eficiência de uso | O sistema deve permitir eficiência tanto para iniciantes quanto experientes. |
+| 8 | Projeto minimalista e estético | Não deve haver informação irrelevante ou excessiva. |
+| 9 | Auxiliar reconhecimento e recuperação de erros | Mensagens de erro devem ser claras, indicar o problema e sugerir solução. |
+| 10 | Ajuda e documentação | O sistema deve fornecer ajuda acessível e objetiva. |
 
-| 1\. | Visibilidade do status do sistema: |
-| :---- | :---- |
-| O sistema deve sempre manter os usuários informados sobre o que está acontecendo através de feedback apropriado, em um tempo razoável. |  |
-| **2\.** | **Compatibilidade entre sistema e mundo real:** |
-| O sistema deve utilizar a linguagem do usuário, com palavras, frases e conceitos familiares para ele, ao invés de termos específicos de sistemas. Seguir convenções do mundo real, fazendo com que a informação apareça em uma ordem lógica e natural. |  |
-| **3\.** | **Controle e liberdade para o usuário:** |
-| Estão relacionados à situação em que os usuários frequentemente escolhem as funções do sistema por engano e então necessitam de "uma saída de emergência” claramente definida para sair do estado não desejado sem ter que percorrer um longo diálogo, ou seja, é necessário suporte a *undo* e *redo*. |  |
-| **4\.** | **Consistência e padrões:** |
-| Referem-se ao fato de que os usuários não deveriam ter acesso a diferentes situações, palavras ou ações representando a mesma coisa. A interface deve ter convenções não-ambíguas. |  |
-| **5\.** | **Prevenção de erros:** |
-| Os erros são as principais fontes de frustração, ineficiência e ineficácia durante a utilização do sistema. |  |
-| **6\.** |  **Reconhecimento em lugar de lembrança:** |
-| Tornar objetos, ações, opções visíveis e coerentes. O usuário não deve ter que lembrar informações de uma parte do diálogo para outra. Instruções para o uso do sistema devem estar visíveis ou facilmente acessíveis. |  |
-| **7\.** | **Flexibilidade e eficiência de uso:** |
-| A ineficiência nas tarefas pode reduzir a eficácia do usuário e causar-lhes frustração. O sistema deve ser adequado tanto para usuários inexperientes quanto para usuários experientes. |  |
-| **8\.** | **Projeto minimalista e estético:** |
-| Os diálogos não devem conter informações irrelevantes ou raramente necessárias. Cada unidade extra de informação em um diálogo compete com unidades relevantes e diminui sua visibilidade relativa. |  |
-| **9\.** | **Auxiliar os usuários a reconhecer, diagnosticar e recuperar erros:** |
-| Mensagens de erro devem ser expressas em linguagem natural (sem códigos), indicando precisamente o erro e sugerindo uma solução. |  |
-| **10\.** | **Ajuda e documentação:** |
-| Mesmo que seja melhor que o sistema possa ser usado sem documentação, pode ser necessário fornecer ajuda e documentação. Tais informações devem ser fáceis de encontrar, ser centradas na tarefa do usuário, listar passos concretos a serem seguidos e não ser muito grandes. A ajuda deve estar facilmente acessível e on-line. |  |
+---
 
-2\. A seguir, avalie o sistema procurando possíveis problemas de usabilidade.   
-3\. Quando um problema qualquer for detectado, classifique-o em uma das dez heurísticas de Nielsen, anotando o problema na tabela correspondente e atribuindo o **grau de severidade** (0 até 4\) para este problema (dado pela tabela 2\) e recomece novamente até não encontrar mais problemas de usabilidade.
+## **Tabela 2 – Grau de Severidade dos Problemas de Usabilidade**
 
-**Tabela 2 \- Grau de severidade dos problemas de usabilidade**
-
-| Grau de severidade | Tipo | Descrição |
-| ----- | :---- | :---- |
+| Grau | Tipo | Descrição |
+|------|------|-----------|
 | 0 | Sem importância | Não afeta a operação da interface |
-| 1 | Cosmético | Não há necessidade imediata de solução |
-| 2 | Simples | Problema de baixa prioridade (pode ser reparado) |
-| 3 | Grave | Problema de alta prioridade (deve ser reparado) |
-| 4 | Catastrófico | Muito grave, deve ser reparado de qualquer forma. |
+| 1 | Cosmético | Não necessita solução imediata |
+| 2 | Simples | Problema de baixa prioridade |
+| 3 | Grave | Deve ser corrigido |
+| 4 | Catastrófico | Impede o uso; deve ser corrigido imediatamente |
 
 > **_NOTE:_**: **colocar o print**
 
-> **_NOTE:_**: **escolher a tabela de declaração de violação padrão da equipe**
+---
 
-2) **INDICAÇÃO DE BOAS PRÁTICAS DE HEURÍSTICA \- HEURÍSTICAS NÃO VIOLADAS \[1 solução completa por pessoa da equipe\]**
+## **1. Visibilidade do status do sistema**
 
-> **_NOTE:_**: **1 EXEMPLO DO SEU SISTEMA ONDE A HEURÍSTICA FOI ATENDIDA (ISSO NÃO É USADO NO MERCADO, SERVE APENAS PARA APRENDIZADO)**
+| Item | Descrição |
+|------|-----------|
+| **Problema identificado** | O dashboard não exibe indicador de carregamento enquanto busca dados em tempo real. O usuário percebe atraso sem feedback. <br> **(INSERIR PRINT AQUI)** |
+| **Grau de Severidade** | 3 – Grave |
+| **Justificativa** | Gera sensação de travamento e insegurança na operação do monitoramento. |
+| **Sugestão de correção** | Adicionar componente de “Carregando...” com barra ou porcentagem. |
+
+---
+
+## **2. Compatibilidade entre sistema e mundo real**
+
+| Item | Descrição |
+|------|-----------|
+| **Problema identificado** | Termos técnicos como “Heatmap Dinâmico” aparecem sem explicação ao operador. <br> **(INSERIR PRINT AQUI)** |
+| **Grau de Severidade** | 2 – Simples |
+| **Justificativa** | Linguagem técnica aumenta dificuldade de compreensão de operadores da CPTM. |
+| **Sugestão de correção** | Usar termos familiares: “Mapa de Calor de Passageiros (atualização automática)”. |
+
+---
+
+## **3. Controle e liberdade para o usuário**
+
+| Item | Descrição |
+|------|-----------|
+| **Problema identificado** | Ao abrir detalhes de uma câmera, não existe botão “Voltar”, restando navegar pelo menu lateral. <br> **(INSERIR PRINT AQUI)** |
+| **Grau de Severidade** | 3 – Grave |
+| **Justificativa** | Dificulta a navegação rápida e atrapalha fluxo em situações de emergência. |
+| **Sugestão de correção** | Adicionar botão “Retornar ao Painel Principal”. |
+
+---
+
+## **4. Consistência e padrões**
+
+| Item | Descrição |
+|------|-----------|
+| **Problema identificado** | Ícones inconsistentes (alguns preenchidos, outros contorno). <br> **(INSERIR PRINT AQUI)** |
+| **Grau de Severidade** | 2 – Simples |
+| **Justificativa** | Reduz previsibilidade e cria ruído visual. |
+| **Sugestão de correção** | Padronizar estilo de ícones. |
+
+---
+
+## **5. Prevenção de erros**
+
+| Item | Descrição |
+|------|-----------|
+| **Problema identificado** | Seleção de intervalo de horário inválido é permitida (“fim < início”). <br> **(INSERIR PRINT AQUI)** |
+| **Grau de Severidade** | 4 – Catastrófico |
+| **Justificativa** | Pode gerar relatórios errados e comprometer decisões operacionais. |
+| **Sugestão de correção** | Bloquear horário inválido e exibir mensagem explicativa. |
+
+---
+
+## **6. Reconhecimento em lugar de lembrança**
+
+| Item | Descrição |
+|------|-----------|
+| **Problema identificado** | Filtros aplicados não ficam visíveis; o usuário precisa abrir menu lateral para lembrar. <br> **(INSERIR PRINT AQUI)** |
+| **Grau de Severidade** | 2 – Simples |
+| **Justificativa** | Aumenta carga cognitiva e chance de erro. |
+| **Sugestão de correção** | Exibir filtros ativos em “chips” visíveis no topo. |
+
+---
+
+## **7. Flexibilidade e eficiência de uso**
+
+| Item | Descrição |
+|------|-----------|
+| **Problema identificado** | Sistema não permite favoritos ou atalhos rápidos para câmeras acessadas frequentemente. <br> **(INSERIR PRINT AQUI)** |
+| **Grau de Severidade** | 1 – Cosmético |
+| **Justificativa** | Reduz eficiência de operadores experientes. |
+| **Sugestão de correção** | Criar seção “Câmeras Favoritas”. |
+
+---
+
+## **8. Projeto minimalista e estético**
+
+| Item | Descrição |
+|------|-----------|
+| **Problema identificado** | Gráficos redundantes apresentam as mesmas informações em dois formatos diferentes. <br> **(INSERIR PRINT AQUI)** |
+| **Grau de Severidade** | 2 – Simples |
+| **Justificativa** | Polui visualmente e dificulta foco. |
+| **Sugestão de correção** | Consolidar gráficos semelhantes. |
+
+---
+
+## **9. Auxiliar reconhecimento e recuperação de erros**
+
+| Item | Descrição |
+|------|-----------|
+| **Problema identificado** | Quando câmera está offline, exibe apenas “Erro 500”. <br> **(INSERIR PRINT AQUI)** |
+| **Grau de Severidade** | 3 – Grave |
+| **Justificativa** | Código técnico não auxilia operador. |
+| **Sugestão de correção** | Texto claro: “Câmera offline — verifique conexão ou suporte”. |
+
+---
+
+## **10. Ajuda e documentação**
+
+| Item | Descrição |
+|------|-----------|
+| **Problema identificado** | Sistema não possui tutorial, ajuda contextual ou manual acessível. <br> **(INSERIR PRINT AQUI)** |
+| **Grau de Severidade** | 1 – Cosmético |
+| **Justificativa** | Dificulta onboarding de novos operadores. |
+| **Sugestão de correção** | Criar guia rápido e ajuda interativa. |
+
+---
+
+# 2) **INDICAÇÃO DE BOAS PRÁTICAS – HEURÍSTICAS NÃO VIOLADAS**
+
+> **NOTE:** 1 exemplo por heurística atendida. Apenas para fins acadêmicos.
+
+### **Boas práticas observadas no sistema**
+
+| Heurística atendida | Evidência |
+|---------------------|-----------|
+| Visibilidade do status do sistema | Botão “Atualizar dados” exibe estado visual de carregamento. |
+| Consistência e padrões | Gráficos seguem paleta única e padronizada. |
+| Projeto minimalista | Dashboard inicial contém apenas informações essenciais. |
+
+---
 
 
 
-
-
-
-### Procedimento
-Os avaliadores analisaram o protótipo funcional do sistema com base nas 10 heurísticas de Nielsen, seguindo um roteiro que incluía:
-Navegação entre as telas do dashboard e busca de dados;
-Criação e análise de grafos
-Exportação de relatórios
-Resolução de discrepâncias simuladas.
-Cada avaliador registrou problemas observados, descrevendo a heurística violada e atribuindo um grau de severidade entre 0 (não é problema) e 4 (problema crítico).
-
-### Resultados Observados
-Os principais problemas identificados foram:
-Ausência de feedback visual ao processar grandes volumes de dados
-Inconsistência terminológica entre campos de busca (“hash”, “identificador” e “usuário”)
-Falta de mensagens de confirmação ao exportar relatórios
-Layout denso em telas com muitos botões de controle simultâneos
-
-### Análise
-De modo geral, o sistema apresentou boa estrutura lógica e coerência visual, com fluxos previsíveis e consistentes. Entretanto, os avaliadores destacaram a necessidade de reforçar elementos de visibilidade, feedback e padronização textual para reduzir erros e melhorar a experiência de uso.
-
-### Recomendações
-Implementar barras ou ícones de progresso em operações demoradas;
-Padronizar nomenclaturas e ícones em todas as telas;
-Inserir confirmações visuais e sonoras em ações críticas (exportar, excluir, atualizar);
-Reorganizar botões de ação em grupos funcionais para evitar sobrecarga visual.
-
-### Conclusão
-A avaliação heurística demonstrou que o sistema está bem estruturado e atende aos princípios básicos de usabilidade, mas requer ajustes em comunicação de estado e consistência visual. As melhorias propostas serão implementadas no próximo ciclo de prototipação.
 
 
 ## 14. Avaliação de Usabilidade baseado em Observação do Usuário

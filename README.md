@@ -726,6 +726,7 @@ graph TD
 ## 11. FIGMA
 ### Layout Página inicial:
 <img width="1919" height="1079" alt="Layout TCC" src="https://github.com/user-attachments/assets/ff51c85d-5be8-4cfa-8b66-62074bf71903" />
+Link do vídeo de demonstração: https://youtu.be/JdEf_tWYgMQ
 
 
 ## 12. Planejamento da Avaliação

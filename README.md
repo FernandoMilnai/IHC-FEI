@@ -768,173 +768,83 @@ Consolidação dos resultados em um único relatório
 Proposição de melhorias na interface
 
 ## 13. Avaliação de IHC através de Inspeção Heurística
-1) **Avaliação de IHC através de inspeção HEURÍSTICA \[1 solução completa por pessoa da equipe \- todas as telas do projeto\]**
 
-> **_NOTE:_**: SOMENTE VIOLAÇÕES
+### 1. Conjunto de heurísticas de Nielsen
 
-Dez Heurísticas de Nielsen
+1. Visibilidade do estado do sistema
 
-**Descrição da avaliação**
+| Problema                                             | Severidade | Tela / Local             | Justificativa                                                                | Solução                                |
+| ---------------------------------------------------- | ---------- | ------------------------ | ---------------------------------------------------------------------------- | -------------------------------------- |
+| Falta de indicador de carregamento ao aplicar filtro | 3 — Grave  | Tela principal / filtros | Usuário não sabe se o sistema está processando; gera sensação de travamento. | Incluir spinner ou barra de progresso. |
 
-Avaliação heurística, definida por Nielsen e Molich (1994), é um método de avaliação de usabilidade onde um avaliador procura problemas de usabilidade numa interface com o usuário através da análise e interpretação de um conjunto de princípios ou heurísticas. Este método de avaliação é baseado no julgamento do avaliador.
+2. Compatibilidade entre sistema e mundo real
 
-# **Tabela 1 – Conjunto de heurísticas de Nielsen (1994)**
+| Problema                                              | Severidade  | Tela / Local   | Justificativa                                         | Solução                                    |
+| ----------------------------------------------------- | ----------- | -------------- | ----------------------------------------------------- | ------------------------------------------ |
+| Uso de termos técnicos ("grafo", "nó") sem explicação | 2 — Simples | Painel lateral | Usuários não familiarizados podem interpretar errado. | Incluir tooltips e termos mais familiares. |
 
-| Nº | Heurística | Descrição |
-|----|------------|-----------|
-| 1 | Visibilidade do status do sistema | O sistema deve sempre manter os usuários informados sobre o que está acontecendo através de feedback apropriado, em tempo razoável. |
-| 2 | Compatibilidade entre sistema e mundo real | O sistema deve usar linguagem familiar ao usuário e seguir convenções do mundo real. |
-| 3 | Controle e liberdade para o usuário | O usuário deve ter uma “saída de emergência” clara, incluindo *undo* e *redo*. |
-| 4 | Consistência e padrões | A interface deve manter padrões claros; ações e elementos devem significar a mesma coisa sempre. |
-| 5 | Prevenção de erros | A interface deve evitar que erros ocorram. |
-| 6 | Reconhecimento em lugar de lembrança | A interface deve manter ações, objetos e opções visíveis, evitando que o usuário tenha que lembrar informações. |
-| 7 | Flexibilidade e eficiência de uso | O sistema deve permitir eficiência tanto para iniciantes quanto experientes. |
-| 8 | Projeto minimalista e estético | Não deve haver informação irrelevante ou excessiva. |
-| 9 | Auxiliar reconhecimento e recuperação de erros | Mensagens de erro devem ser claras, indicar o problema e sugerir solução. |
-| 10 | Ajuda e documentação | O sistema deve fornecer ajuda acessível e objetiva. |
+3. Controle e liberdade do usuário
 
----
+| Problema                                         | Severidade | Tela / Local           | Justificativa                                   | Solução                                 |
+| ------------------------------------------------ | ---------- | ---------------------- | ----------------------------------------------- | --------------------------------------- |
+| Não há opção de desfazer reconstrução de trajeto | 3 — Grave  | Caixa de discrepâncias | Usuário não pode comparar versões antes/depois. | Adicionar ação "desfazer reconstrução". |
 
-## **Tabela 2 – Grau de Severidade dos Problemas de Usabilidade**
+4. Consistência e padrões
 
-| Grau | Tipo | Descrição |
-|------|------|-----------|
-| 0 | Sem importância | Não afeta a operação da interface |
-| 1 | Cosmético | Não necessita solução imediata |
-| 2 | Simples | Problema de baixa prioridade |
-| 3 | Grave | Deve ser corrigido |
-| 4 | Catastrófico | Impede o uso; deve ser corrigido imediatamente |
+| Problema                      | Severidade    | Tela / Local  | Justificativa                              | Solução                        |
+| ----------------------------- | ------------- | ------------- | ------------------------------------------ | ------------------------------ |
+| Ícones com estilos diferentes | 1 — Cosmético | Barra lateral | Mistura de estilos reduz coerência visual. | Padronizar conjunto de ícones. |
 
-> **_NOTE:_**: **colocar o print**
+5. Prevenção de erros
 
----
+| Problema                                | Severidade       | Tela / Local     | Justificativa                                   | Solução                      |
+| --------------------------------------- | ---------------- | ---------------- | ----------------------------------------------- | ---------------------------- |
+| Exportar relatório sem dados carregados | 4 — Catastrófico | Botão "Exportar" | Usuário gera arquivo vazio; risco alto de erro. | Desabilitar botão sem dados. |
 
-## **1. Visibilidade do status do sistema**
+6. Reconhecimento em vez de lembrança
 
-| Item | Descrição |
-|------|-----------|
-| **Problema identificado** | O dashboard não exibe indicador de carregamento enquanto busca dados em tempo real. O usuário percebe atraso sem feedback. <br> **(INSERIR PRINT AQUI)** |
-| **Grau de Severidade** | 3 – Grave |
-| **Justificativa** | Gera sensação de travamento e insegurança na operação do monitoramento. |
-| **Sugestão de correção** | Adicionar componente de “Carregando...” com barra ou porcentagem. |
+| Problema                             | Severidade  | Tela / Local      | Justificativa                            | Solução                         |
+| ------------------------------------ | ----------- | ----------------- | ---------------------------------------- | ------------------------------- |
+| Filtros não exibem histórico recente | 2 — Simples | Painel de filtros | Usuário precisa lembrar filtro anterior. | Adicionar histórico automático. |
 
----
+7. Flexibilidade e eficiência de uso
 
-## **2. Compatibilidade entre sistema e mundo real**
+| Problema                          | Severidade  | Tela / Local   | Justificativa                     | Solução                                                |
+| --------------------------------- | ----------- | -------------- | --------------------------------- | ------------------------------------------------------ |
+| Sem atalhos para ações frequentes | 2 — Simples | Toda interface | Usuário especialista perde tempo. | Adicionar atalhos (F para filtros, R para relatórios). |
 
-| Item | Descrição |
-|------|-----------|
-| **Problema identificado** | Termos técnicos como “Heatmap Dinâmico” aparecem sem explicação ao operador. <br> **(INSERIR PRINT AQUI)** |
-| **Grau de Severidade** | 2 – Simples |
-| **Justificativa** | Linguagem técnica aumenta dificuldade de compreensão de operadores da CPTM. |
-| **Sugestão de correção** | Usar termos familiares: “Mapa de Calor de Passageiros (atualização automática)”. |
+8. Estética e minimalismo
 
----
+| Problema               | Severidade    | Tela / Local    | Justificativa                           | Solução                     |
+| ---------------------- | ------------- | --------------- | --------------------------------------- | --------------------------- |
+| Mapa de calor saturado | 1 — Cosmético | Mapa da estação | Muitos elementos competem pela atenção. | Ajustar paleta e contraste. |
 
-## **3. Controle e liberdade para o usuário**
+9. Ajudar usuários a diagnosticar e recuperar erros
 
-| Item | Descrição |
-|------|-----------|
-| **Problema identificado** | Ao abrir detalhes de uma câmera, não existe botão “Voltar”, restando navegar pelo menu lateral. <br> **(INSERIR PRINT AQUI)** |
-| **Grau de Severidade** | 3 – Grave |
-| **Justificativa** | Dificulta a navegação rápida e atrapalha fluxo em situações de emergência. |
-| **Sugestão de correção** | Adicionar botão “Retornar ao Painel Principal”. |
+| Problema                  | Severidade | Tela / Local     | Justificativa                   | Solução                           |
+| ------------------------- | ---------- | ---------------- | ------------------------------- | --------------------------------- |
+| Mensagem de erro genérica | 3 — Grave  | Área de gráficos | Usuário não sabe como resolver. | Indicar causa e solução sugerida. |
 
----
+10. Ajuda e documentação
 
-## **4. Consistência e padrões**
+| Problema                     | Severidade  | Tela / Local | Justificativa                        | Solução                                      |
+| ---------------------------- | ----------- | ------------ | ------------------------------------ | -------------------------------------------- |
+| Falta documentação integrada | 2 — Simples | Geral        | Usuários novos ficam sem referência. | Adicionar botão "Ajuda" com tutorial rápido. |
 
-| Item | Descrição |
-|------|-----------|
-| **Problema identificado** | Ícones inconsistentes (alguns preenchidos, outros contorno). <br> **(INSERIR PRINT AQUI)** |
-| **Grau de Severidade** | 2 – Simples |
-| **Justificativa** | Reduz previsibilidade e cria ruído visual. |
-| **Sugestão de correção** | Padronizar estilo de ícones. |
+### 2. Indicação de Boas Práticas de Heurísticas
 
----
-
-## **5. Prevenção de erros**
-
-| Item | Descrição |
-|------|-----------|
-| **Problema identificado** | Seleção de intervalo de horário inválido é permitida (“fim < início”). <br> **(INSERIR PRINT AQUI)** |
-| **Grau de Severidade** | 4 – Catastrófico |
-| **Justificativa** | Pode gerar relatórios errados e comprometer decisões operacionais. |
-| **Sugestão de correção** | Bloquear horário inválido e exibir mensagem explicativa. |
-
----
-
-## **6. Reconhecimento em lugar de lembrança**
-
-| Item | Descrição |
-|------|-----------|
-| **Problema identificado** | Filtros aplicados não ficam visíveis; o usuário precisa abrir menu lateral para lembrar. <br> **(INSERIR PRINT AQUI)** |
-| **Grau de Severidade** | 2 – Simples |
-| **Justificativa** | Aumenta carga cognitiva e chance de erro. |
-| **Sugestão de correção** | Exibir filtros ativos em “chips” visíveis no topo. |
-
----
-
-## **7. Flexibilidade e eficiência de uso**
-
-| Item | Descrição |
-|------|-----------|
-| **Problema identificado** | Sistema não permite favoritos ou atalhos rápidos para câmeras acessadas frequentemente. <br> **(INSERIR PRINT AQUI)** |
-| **Grau de Severidade** | 1 – Cosmético |
-| **Justificativa** | Reduz eficiência de operadores experientes. |
-| **Sugestão de correção** | Criar seção “Câmeras Favoritas”. |
-
----
-
-## **8. Projeto minimalista e estético**
-
-| Item | Descrição |
-|------|-----------|
-| **Problema identificado** | Gráficos redundantes apresentam as mesmas informações em dois formatos diferentes. <br> **(INSERIR PRINT AQUI)** |
-| **Grau de Severidade** | 2 – Simples |
-| **Justificativa** | Polui visualmente e dificulta foco. |
-| **Sugestão de correção** | Consolidar gráficos semelhantes. |
-
----
-
-## **9. Auxiliar reconhecimento e recuperação de erros**
-
-| Item | Descrição |
-|------|-----------|
-| **Problema identificado** | Quando câmera está offline, exibe apenas “Erro 500”. <br> **(INSERIR PRINT AQUI)** |
-| **Grau de Severidade** | 3 – Grave |
-| **Justificativa** | Código técnico não auxilia operador. |
-| **Sugestão de correção** | Texto claro: “Câmera offline — verifique conexão ou suporte”. |
-
----
-
-## **10. Ajuda e documentação**
-
-| Item | Descrição |
-|------|-----------|
-| **Problema identificado** | Sistema não possui tutorial, ajuda contextual ou manual acessível. <br> **(INSERIR PRINT AQUI)** |
-| **Grau de Severidade** | 1 – Cosmético |
-| **Justificativa** | Dificulta onboarding de novos operadores. |
-| **Sugestão de correção** | Criar guia rápido e ajuda interativa. |
-
----
-
-# 2) **INDICAÇÃO DE BOAS PRÁTICAS – HEURÍSTICAS NÃO VIOLADAS**
-
-> **NOTE:** 1 exemplo por heurística atendida. Apenas para fins acadêmicos.
-
-### **Boas práticas observadas no sistema**
-
-| Heurística atendida | Evidência |
-|---------------------|-----------|
-| Visibilidade do status do sistema | Botão “Atualizar dados” exibe estado visual de carregamento. |
-| Consistência e padrões | Gráficos seguem paleta única e padronizada. |
-| Projeto minimalista | Dashboard inicial contém apenas informações essenciais. |
-
----
-
-
-
+| Heurística                     | Exemplo no sistema                          |
+| ------------------------------ | ------------------------------------------- |
+| Visibilidade do estado         | Gráficos atualizam ao aplicar filtros.      |
+| Compatibilidade com mundo real | "Fluxo por hora" em vez de termos técnicos. |
+| Controle e liberdade           | Botão "Cancelar filtros".                   |
+| Consistência                   | Navegação lateral padronizada.              |
+| Prevenção de erros             | Bloqueio de datas invertidas.               |
+| Reconhecimento                 | Ícones autoexplicativos.                    |
+| Flexibilidade                  | Vários filtros simultâneos.                 |
+| Minimalismo                    | Layout limpo e hierárquico.                 |
+| Diagnóstico de erros           | Mensagem "Nenhum dado disponível".          |
+| Ajuda e documentação           | Tooltips explicativos.                      |
 
 
 ## 14. Avaliação de Usabilidade baseado em Observação do Usuário

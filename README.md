@@ -942,14 +942,62 @@ Avaliação heurística, definida por Nielsen e Molich (1994), é um método de 
 **Método de Avaliação de Usabilidade por Observação do Usuário**   
 **(o número de usuários observados é igual o número de membros da equipe)**
 
-1) **Fluxograma de Avaliação de Usabilidade por Observação do Usuário \[1 solução por equipe\]**
+1) **Fluxograma de Avaliação de Usabilidade por Observação do Usuário**
+INÍCIO > Planejamento da Avaliação > Definição dos Perfis dos Usuários > Criação da Lista > Conclusão e Recomde Tarefas > Desenvolvimento do Formulário de Perfil > Preparação do Ambiente de Teste > Orientação Inicial ao Usuário > Execução das Tarefas (usuário realiza enquanto é observado) > Registro de Erros, Tempos e Interações > Coleta da Satisfação Final (questionário após teste) > Análise dos Dados por Tarefaendações
 
-2) **DESCRIÇÃO DO PROCEDIMENTO DE PREPARAÇÃO DO TESTE \[1 solução por equipe\]**
+3) **DESCRIÇÃO DO PROCEDIMENTO DE PREPARAÇÃO DO TESTE \[1 solução por equipe\]**
 
-**Passo 1:**  
-**Passo 2: Lista de tarefas que o usuário deve cumprir.**  
-**Passo 3: Formulário de perfil do usuário**  
-**etc…**
+Passo 1: Preparação do Ambiente
+- Configuração de computador com versão atual do sistema
+- Limpeza dos históricos e dados temporários para evitar vieses
+- Garantir que a gravação de tela ou anotações possam ser feitas sem distrair o usuário
+- Explicar ao participante que ele será avaliado pelo sistema, não por sua performance
+
+Passo 2: Lista de tarefas que o usuário deve cumprir
+- Realizar pesquisa na base de dados utilizando parâmetros definidos
+- Importar uma base de dados no sistema
+- Exportar uma base de dados
+- Consultar gráficos estatísticos
+- Acessar a seção “Dúvidas Frequentes”
+
+Passo 3: Formulário de perfil do usuário
+- O formulário aplicado antes da avaliação contém:
+- Nome do usuário
+- Idade
+- Grau de familiaridade com sistemas de consulta ou dashboards
+- Frequência de uso de sistemas computacionais
+- Experiência prévia com ferramentas de importação/exportação de dados
+- Expectativa inicial sobre o sistema
+
+Passo 4: Orientação inicial
+- Apresentação breve do objetivo do teste.
+- Instrução sobre pensar em voz alta, caso necessário.
+- Informar que podem errar, tentar novamente e pedir esclarecimento.
+- O avaliador explica que não pode ajudar durante a execução, apenas observar.
+
+Passo 5: Execução do teste
+- O usuário realiza as tarefas em ordem predefinida.
+- O avaliador registra:
+ - erros,
+ - hesitações
+ - tentavivas repetidas
+ - cliques incorretos
+ - tempo necessário
+ - reações espontâneas
+
+Passo 6: Questionário Pós-Teste
+Escala de satisfação utilizada:
+- Muito Satisfeito
+Satisfeito
+- Neutro
+- Insatisfeito
+- Muito Insatisfeito
+Perguntas avaliadas:
+- Facilidade geral de uso
+- Clareza das telas
+- Tempo para realizar cada tarefa
+- Dificuldades encontradas
+- Sugestões de melhoria
 
 3) **RESULTADOS DO TESTE \[1 solução por equipe\]**
 
